@@ -1,0 +1,17 @@
+{
+  "FolderOrderSettings":[
+    {"name":"Sprites","order":3,"path":"folders/Sprites.yy",},
+    {"name":"Objects","order":2,"path":"folders/Objects.yy",},
+    {"name":"Rooms","order":1,"path":"folders/Rooms.yy",},
+  ],
+  "ResourceOrderSettings":[
+    {"name":"obj_battle_manager","order":3,"path":"objects/obj_battle_manager/obj_battle_manager.yy",},
+    {"name":"obj_block","order":4,"path":"objects/obj_block/obj_block.yy",},
+    {"name":"obj_card1","order":2,"path":"objects/obj_card1/obj_card1.yy",},
+    {"name":"obj_enemy1","order":1,"path":"objects/obj_enemy1/obj_enemy1.yy",},
+    {"name":"spr_block","order":4,"path":"sprites/spr_block/spr_block.yy",},
+    {"name":"spr_card1","order":3,"path":"sprites/spr_card1/spr_card1.yy",},
+    {"name":"spr_player1","order":2,"path":"sprites/spr_player1/spr_player1.yy",},
+    {"name":"spr_rm1","order":1,"path":"sprites/spr_rm1/spr_rm1.yy",},
+  ],
+}
