@@ -5,7 +5,7 @@ if (global.turn == "enemy") {
 	
 	obj_player.mp = obj_player.max_mp;
 	
-	global.turn = "player";
+global.turn = "player";
 }
 
 if (not_enough_mp_timer > 0) {
