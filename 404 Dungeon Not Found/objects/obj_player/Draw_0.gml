@@ -4,6 +4,7 @@ var bar_h = 8;
 
 var hp_percent = hp / max_hp;
 
+draw_set_font(Font1);
 draw_set_color(c_black);
 draw_rectangle(x - bar_w/2, y - sprite_height - 20, x + bar_w/2, y - sprite_height - 20 + bar_h, false);
 

@@ -21,8 +21,5 @@ inst2.image_xscale = -4.25;
 inst2.image_yscale = 4.25;
 
 
-shuffle_deck(player_deck);
-draw_cards(max_hand_size);
-
 not_enough_mp_text = "";
 not_enough_mp_timer = 0;
