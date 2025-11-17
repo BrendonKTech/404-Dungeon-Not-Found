@@ -23,3 +23,5 @@ inst2.image_yscale = 4.25;
 
 not_enough_mp_text = "";
 not_enough_mp_timer = 0;
+show_victory_overlay = false;
+overlay_alpha = 0.5;  

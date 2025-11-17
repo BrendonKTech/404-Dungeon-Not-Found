@@ -7,12 +7,17 @@ if (global.turn == "player")
 		if (instance_exists(target)) {
 			target.hp -= card_damage;
 			obj_player.mp -= card_cost;
+			var dmg_text = instance_create_layer(target.x, target.y - 50, "Instances", obj_damage_number);
+		dmg_text.text = string(card_damage);
+		dmg_text.color = c_red;
+		dmg_text.vy = -1;   // moves upward
+		dmg_text.life_time = 60;
 			instance_destroy();
 		}
 	}
 	else
 	{
 		 obj_battle_manager.not_enough_mp_text = "Not enough MP!";
-		 obj_battle_manager.not_enough_mp_timer = 45; // lasts ~0.75 seconds at 60 FPS
+		 obj_battle_manager.not_enough_mp_timer = 45;
 	}
 }

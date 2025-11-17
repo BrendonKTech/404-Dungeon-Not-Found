@@ -3,7 +3,15 @@ if (global.turn == "enemy") {
 		obj_player.hp -= damage;
 	}
 	
-	obj_player.mp = obj_player.max_mp;
+	//damage numbers
+	var dmg_text = instance_create_layer(obj_player.x, obj_player.y - 50, "Instances", obj_damage_number);
+		dmg_text.text = string(obj_enemy1.damage);
+		dmg_text.color = c_red;
+		dmg_text.vy = -1;   // moves upward
+		dmg_text.life_time = 60;
+
+	
+	obj_player.mp++;
 	
 global.turn = "player";
 }
