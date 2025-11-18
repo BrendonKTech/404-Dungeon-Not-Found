@@ -5,5 +5,8 @@ mp = 2;
 max_mp = 3;
 
 damage = 6;
+is_alive = true;
 
 global.player = id;
+
+alpha = 0;

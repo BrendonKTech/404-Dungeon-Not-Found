@@ -30,14 +30,14 @@ if (refresh_cards) {
     with (obj_card1) {
         instance_destroy();
     }
-var inst3 = instance_create_layer(736, 960, "Instances", obj_card1);
-inst3.image_xscale = 0.6;
-inst3.image_yscale = 0.6;
+var inst3 = instance_create_layer(640, 960, "Instances", obj_card1);
+inst3.image_xscale = 0.5;
+inst3.image_yscale = 0.5;
 var inst4 = instance_create_layer(944, 960, "Instances", obj_card1);
-inst3.image_xscale = 0.6;
-inst3.image_yscale = 0.6;
-var inst5 = instance_create_layer(1152, 960, "Instances", obj_card1);
-inst3.image_xscale = 0.6;
-inst3.image_yscale = 0.6;
+inst3.image_xscale = 0.5;
+inst3.image_yscale = 0.5;
+var inst5 = instance_create_layer(1248, 960, "Instances", obj_card1);
+inst3.image_xscale = 0.5;
+inst3.image_yscale = 0.5;
 refresh_cards = false
 }
