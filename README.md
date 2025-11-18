@@ -1,1 +1,63 @@
-# 404-Dungeon-Not-Found
+# 404 Dungeon Not Found
+
+**Players:** Single-player
+
+**Genre:** Turn-Based Deck-Building Strategy  
+
+---
+
+## Overview
+
+**404 Dungeon Not Found** is a turn-based strategy game inspired by *Slay the Spire*.  
+Players build and customize a deck of cards and use them strategically to defeat enemies. Each card represents a different action — attack, defend, or special effect — and choosing the right combination is key to victory. The goal is to defeat your enemies as efficiently as possible before your health runs out.
+
+---
+
+## How to Play
+
+1. **Start the Game**  
+   Launch the game and click **Start** to enter the first battle.
+
+2. **Deck & Cards**  
+   - You start with a basic deck of cards.  
+   - Each turn, you draw a hand of cards from your deck.  
+   - Cards cost action points (or energy) to play — manage them wisely.
+
+3. **Taking Your Turn**  
+   - Select cards from your hand to perform attacks or defenses.  
+   - Some cards may have special effects or synergies with other cards.  
+   - After you finish playing cards, end your turn.  
+
+4. **Enemy Turn**  
+   - Enemies will attack or perform actions automatically.  
+   - Watch their patterns to plan your next moves.
+
+5. **Winning & Losing**  
+   - Defeat all enemies in the encounter to progress.  
+   - If your health reaches zero, the game ends.  
+
+6. **Tips**  
+   - Combine attack and defense cards for optimal strategy.  
+   - Plan ahead to avoid taking excessive damage.  
+   - Some cards work better in combination — experiment with different decks.  
+
+---
+
+## Controls
+
+- **Mouse**: Select cards, click buttons (Start, End Turn, etc.)  
+- **UI Buttons**: Start, Settings (coming soon), Quit  
+
+---
+
+## Credits
+
+- Developed in **GameMaker Studio**  
+- Inspired by *Slay the Spire*  
+
+---
+
+## Notes
+
+- This is a work in progress.  
+- Settings menu and additional enemies/cards will be added in future updates.
