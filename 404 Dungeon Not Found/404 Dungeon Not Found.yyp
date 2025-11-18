@@ -40,6 +40,7 @@
     {"id":{"name":"draw_cards","path":"scripts/draw_cards/draw_cards.yy",},},
     {"id":{"name":"spr_block","path":"sprites/spr_block/spr_block.yy",},},
     {"id":{"name":"spr_card1","path":"sprites/spr_card1/spr_card1.yy",},},
+    {"id":{"name":"spr_card2","path":"sprites/spr_card2/spr_card2.yy",},},
     {"id":{"name":"spr_endTurn","path":"sprites/spr_endTurn/spr_endTurn.yy",},},
     {"id":{"name":"spr_enemy1","path":"sprites/spr_enemy1/spr_enemy1.yy",},},
     {"id":{"name":"spr_player1","path":"sprites/spr_player1/spr_player1.yy",},},

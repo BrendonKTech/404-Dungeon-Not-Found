@@ -31,7 +31,7 @@ inst3.image_yscale = 0.5;
 var inst4 = instance_create_layer(944, 960, "Instances", obj_card1);
 inst3.image_xscale = 0.5;
 inst3.image_yscale = 0.5;
-var inst5 = instance_create_layer(1248, 960, "Instances", obj_card1);
+var inst5 = instance_create_layer(1248, 960, "Instances", obj_card2);
 inst3.image_xscale = 0.5;
 inst3.image_yscale = 0.5;
 

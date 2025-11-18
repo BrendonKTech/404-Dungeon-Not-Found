@@ -20,8 +20,8 @@ if (hovered) {
     draw_set_alpha(0.4);
     draw_set_color(c_yellow);
     draw_rectangle(
-        x - w/2, y - h/2 + lift,
-        x + w/2, y + h/2 + lift,
+        x - w, y - h + lift,
+        x + w, y + h + lift,
         false
     );
     draw_set_alpha(1);

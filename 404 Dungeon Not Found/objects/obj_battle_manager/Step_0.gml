@@ -13,7 +13,7 @@ if (global.turn == "enemy") {
 
     
     // Increment player MP
-    global.player.mp++;
+    global.player.mp += 2;
 	refresh_cards = true;
 
     global.turn = "player";
@@ -30,13 +30,16 @@ if (refresh_cards) {
     with (obj_card1) {
         instance_destroy();
     }
+	with (obj_card2) {
+        instance_destroy();
+    }
 var inst3 = instance_create_layer(640, 960, "Instances", obj_card1);
 inst3.image_xscale = 0.5;
 inst3.image_yscale = 0.5;
 var inst4 = instance_create_layer(944, 960, "Instances", obj_card1);
 inst3.image_xscale = 0.5;
 inst3.image_yscale = 0.5;
-var inst5 = instance_create_layer(1248, 960, "Instances", obj_card1);
+var inst5 = instance_create_layer(1248, 960, "Instances", obj_card2);
 inst3.image_xscale = 0.5;
 inst3.image_yscale = 0.5;
 refresh_cards = false
