@@ -13,6 +13,11 @@ player_discard = [];
 max_hand_size = 5;
 
 
+ var start_text = instance_create_layer(room_width / 2, room_height / 2, "Instances", obj_battleStartText);
+       start_text.color = c_yellow;
+        start_text.vy = -1;   // moves upward
+        start_text.life_time = 60;
+
 var inst = instance_create_layer(392, 600, "Instances", obj_player);
 inst.image_xscale = 7;
 inst.image_yscale = 7;

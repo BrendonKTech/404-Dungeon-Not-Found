@@ -27,6 +27,7 @@
   "resources":[
     {"id":{"name":"Font1","path":"fonts/Font1/Font1.yy",},},
     {"id":{"name":"obj_battle_manager","path":"objects/obj_battle_manager/obj_battle_manager.yy",},},
+    {"id":{"name":"obj_battleStartText","path":"objects/obj_battleStartText/obj_battleStartText.yy",},},
     {"id":{"name":"obj_block","path":"objects/obj_block/obj_block.yy",},},
     {"id":{"name":"obj_card1","path":"objects/obj_card1/obj_card1.yy",},},
     {"id":{"name":"obj_card2","path":"objects/obj_card2/obj_card2.yy",},},

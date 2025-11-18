@@ -2,7 +2,7 @@
 y += vy;
 
 // Fade out gradually
-alpha = life_time / 40; // fade out over lifetime
+alpha = life_time / 20; // fade out over lifetime
 
 // Countdown lifetime
 life_time -= 1;

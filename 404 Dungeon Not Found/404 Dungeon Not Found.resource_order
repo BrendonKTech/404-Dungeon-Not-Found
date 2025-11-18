@@ -8,6 +8,7 @@
   ],
   "ResourceOrderSettings":[
     {"name":"obj_battle_manager","order":3,"path":"objects/obj_battle_manager/obj_battle_manager.yy",},
+    {"name":"obj_battleStartText","order":9,"path":"objects/obj_battleStartText/obj_battleStartText.yy",},
     {"name":"obj_block","order":4,"path":"objects/obj_block/obj_block.yy",},
     {"name":"obj_card1","order":2,"path":"objects/obj_card1/obj_card1.yy",},
     {"name":"obj_card2","order":5,"path":"objects/obj_card2/obj_card2.yy",},
