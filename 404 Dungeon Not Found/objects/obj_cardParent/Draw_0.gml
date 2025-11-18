@@ -1,11 +1,12 @@
+
 var card_scale = 0.5;  // your current scale
 image_xscale = card_scale;
 image_yscale = card_scale;
 
 // --- lift amount ---
 var lift = 0;
-if (hovered) {
-    lift = -30; // moves card 20 pixels upward
+if (instance_exists(id) && (hovered)) {
+    lift = -30;
 }
 
 // --- draw card at lifted position ---

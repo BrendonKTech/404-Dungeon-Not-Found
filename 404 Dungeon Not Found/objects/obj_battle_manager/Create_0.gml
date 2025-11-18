@@ -36,3 +36,4 @@ not_enough_mp_timer = 0;
 show_victory_overlay = false;
 overlay_alpha = 0.5;  
 
+refresh_cards = false

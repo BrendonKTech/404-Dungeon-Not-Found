@@ -1,4 +1,4 @@
-hp = 18;
-max_hp = 18;
-damage = 5
+hp = 22;
+max_hp = 22;
+damage = 12
 is_alive = true;
