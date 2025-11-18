@@ -3,7 +3,7 @@ if (not_enough_mp_timer > 0) {
     draw_set_valign(fa_middle);
     draw_set_color(c_red);
 
-    var alpha = not_enough_mp_timer / 45; // fades out
+    var alpha = not_enough_mp_timer / 60; // fades out
     draw_set_alpha(alpha);
 
 	draw_set_font(Font1);
