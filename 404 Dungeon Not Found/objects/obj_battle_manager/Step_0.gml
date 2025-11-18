@@ -14,6 +14,11 @@ if (global.turn == "enemy") {
     
     // Increment player MP
     global.player.mp += 2;
+	if global.player.mp > global.player.max_mp
+	{
+		global.player.mp = global.player.max_mp
+	}
+	
 	refresh_cards = true;
 
     global.turn = "player";
