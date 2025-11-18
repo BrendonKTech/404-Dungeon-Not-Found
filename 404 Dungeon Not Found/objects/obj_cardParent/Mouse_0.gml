@@ -21,3 +21,10 @@ if (global.turn == "player")
 		 obj_battle_manager.not_enough_mp_timer = 45;
 	}
 }
+
+with (obj_player) {
+    if (!is_attacking) {
+        is_attacking = true;
+        attack_phase = 1;
+    }
+}
