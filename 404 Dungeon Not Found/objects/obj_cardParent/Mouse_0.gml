@@ -1,12 +1,12 @@
 if (global.turn == "player")
 {
 
-	if (obj_player.mp >= card_cost) 
+	if (obj_tempplayer.mp >= card_cost) 
 	{
-		target = instance_nearest(mouse_x, mouse_y, obj_enemy1);
+		target = instance_nearest(mouse_x, mouse_y, obj_tempenemy1);
 		if (instance_exists(target)) {
 			target.hp -= card_damage;
-			obj_player.mp -= card_cost;
+			obj_tempplayer.mp -= card_cost;
 			var dmg_text = instance_create_layer(target.x, target.y - 50, "Instances", obj_damage_number);
 		dmg_text.text = string(card_damage);
 		dmg_text.color = c_red;
@@ -22,7 +22,7 @@ if (global.turn == "player")
 	}
 }
 
-with (obj_player) {
+with (obj_tempplayer) {
     if (!is_attacking) {
         is_attacking = true;
         attack_phase = 1;

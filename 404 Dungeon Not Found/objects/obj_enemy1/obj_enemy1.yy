@@ -1,17 +1,13 @@
 {
   "$GMObject":"",
   "%Name":"obj_enemy1",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "eventList":[],
   "managed":true,
   "name":"obj_enemy1",
   "overriddenProperties":[],
   "parent":{
-    "name":"Fighters",
-    "path":"folders/Objects/Fighters.yy",
+    "name":"Enemy1",
+    "path":"folders/Objects/Fighters/Enemy1.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -32,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_enemy1",
-    "path":"sprites/spr_enemy1/spr_enemy1.yy",
+    "name":"spr_enemy3_idle",
+    "path":"sprites/spr_enemy3_idle/spr_enemy3_idle.yy",
   },
   "spriteMaskId":null,
   "visible":true,

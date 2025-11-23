@@ -1,5 +1,5 @@
 if (global.turn == "enemy") {
-    with (obj_enemy1) {
+    with (obj_tempenemy1) {
         // Apply damage to player
         global.player.hp -= damage;
 

@@ -18,19 +18,19 @@ max_hand_size = 5;
         start_text.vy = -1;   // moves upward
         start_text.life_time = 60;
 
-var enemy_index = irandom_range(1, 5);
+/*var enemy_index = irandom_range(1, 5);
 var enemy_sprite_name = "spr_enemy" + string(enemy_index);
 var enemy_asset = asset_get_index(enemy_sprite_name);
 
-var inst6 = instance_create_layer(1408, 600, "Instances", obj_enemy1);
+var inst6 = instance_create_layer(1408, 600, "Instances", obj_tempenemy1);
 inst6.image_xscale = -2.25;
 inst6.image_yscale = 2.25;
-inst6.sprite_index = enemy_asset;
+inst6.sprite_index = enemy_asset;*/
 
-var inst = instance_create_layer(392, 600, "Instances", obj_player);
+var inst = instance_create_layer(392, 600, "Instances", obj_tempplayer);
 inst.image_xscale = 2.5;
 inst.image_yscale = 2.5;
-var inst2 = instance_create_layer(1408, 600, "Instances", obj_enemy1);
+var inst2 = instance_create_layer(1408, 600, "Instances", obj_tempenemy1);
 inst2.image_xscale = -2.25;
 inst2.image_yscale = 2.25;
 

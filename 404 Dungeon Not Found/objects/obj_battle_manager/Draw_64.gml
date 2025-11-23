@@ -25,7 +25,7 @@ draw_set_color(c_black);
 draw_rectangle(bar_x, bar_y, bar_x + bar_width, bar_y + bar_height, false);
 
 // --- Draw filled MP ---
-var mp_ratio = obj_player.mp / obj_player.max_mp;
+var mp_ratio = obj_tempplayer.mp / obj_tempplayer.max_mp;
 draw_set_color(c_blue); // color of MP bar
 draw_rectangle(
     bar_x + padding,
@@ -39,7 +39,7 @@ draw_rectangle(
 draw_set_color(c_white);
 draw_set_halign(fa_center);
 draw_set_valign(fa_middle);
-draw_text(bar_x + bar_width/2, bar_y + bar_height/2, string(obj_player.mp) + " / " + string(obj_player.max_mp));
+draw_text(bar_x + bar_width/2, bar_y + bar_height/2, string(obj_tempplayer.mp) + " / " + string(obj_tempplayer.max_mp));
 
 
 if (show_victory_overlay) {
