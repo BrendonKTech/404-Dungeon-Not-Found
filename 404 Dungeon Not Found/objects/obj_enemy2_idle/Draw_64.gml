@@ -1,4 +1,4 @@
-draw_self();
+/*draw_self();
 
 var bar_w = 80;
 var bar_h = 8;

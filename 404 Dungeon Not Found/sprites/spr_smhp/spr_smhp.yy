@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"Map Sprites",
-    "path":"folders/Sprites/Map Sprites.yy",
+    "name":"ICONS",
+    "path":"folders/Sprites/ICONS.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
