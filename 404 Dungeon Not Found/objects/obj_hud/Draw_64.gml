@@ -45,7 +45,7 @@ for (var i = 0; i < 3; i++)
 var rx = room_width - 70;
 
 
-// --- GEAR (settings) ---
+// --- GEAR (settings) ---	
 draw_sprite(spr_gear, 0, rx, y_mid - 20);
 rx -= 90;
 
@@ -58,3 +58,27 @@ rx -= 90;
 // --- MAP ---
 draw_sprite(spr_map_icon, 0, rx, y_mid - 20);
 rx -= 90;
+
+
+// ========================
+// MAP OVERLAY
+// ========================
+if (show_map_overlay) {
+
+    // Dark transparent background
+    draw_set_color(make_color_rgba(0, 0, 0, 180));
+    draw_rectangle(0, 0, display_get_gui_width(), display_get_gui_height(), false);
+
+    draw_set_color(c_white);
+    draw_set_font(Font1);
+    draw_text(100, 100, "MAP OPEN");
+
+    // Add a close button
+    draw_text(100, 200, "[ CLICK ANYWHERE TO CLOSE ]");
+}
+
+if (show_map_overlay) {
+    with (obj_map_controller) {
+        event_perform(ev_draw, 0); // force draw its Draw event UI-style
+    }
+}
