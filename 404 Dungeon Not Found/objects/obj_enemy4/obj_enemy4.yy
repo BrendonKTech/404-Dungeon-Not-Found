@@ -6,8 +6,8 @@
   "name":"obj_enemy4",
   "overriddenProperties":[],
   "parent":{
-    "name":"Enemy4",
-    "path":"folders/Objects/Fighters/Enemy4.yy",
+    "name":"Fighters",
+    "path":"folders/Objects/Fighters.yy",
   },
   "parentObjectId":null,
   "persistent":false,

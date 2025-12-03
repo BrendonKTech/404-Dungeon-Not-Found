@@ -1,4 +1,4 @@
-/* Commenting out until I can fix it
+/* Commenting out until I can fix it */
 
 /// scr_map_fix_disconnected.gml
 function scr_map_fix_disconnected() {

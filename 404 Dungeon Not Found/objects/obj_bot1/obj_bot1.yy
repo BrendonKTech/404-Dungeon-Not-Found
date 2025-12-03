@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_tutorialbot",
-    "path":"sprites/spr_tutorialbot/spr_tutorialbot.yy",
+    "name":"spr_bot1",
+    "path":"sprites/spr_bot1/spr_bot1.yy",
   },
   "spriteMaskId":null,
   "visible":true,
