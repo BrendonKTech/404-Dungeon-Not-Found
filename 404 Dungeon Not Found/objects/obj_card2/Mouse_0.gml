@@ -1,7 +1,7 @@
 if (global.turn == "player")
 {
 
-	if (obj_pplayer.mp >= card_cost) 
+	if (obj_player.mp >= card_cost) 
 	{
 		target = instance_nearest(mouse_x, mouse_y, obj_player);
 		if (instance_exists(target)) {
