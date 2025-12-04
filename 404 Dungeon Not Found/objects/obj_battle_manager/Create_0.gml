@@ -27,22 +27,19 @@ inst6.image_xscale = -2.25;
 inst6.image_yscale = 2.25;
 inst6.sprite_index = enemy_asset;*/
 
-var inst = instance_create_layer(392, 600, "Instances", obj_player);
-inst.image_xscale = 2.5;
-inst.image_yscale = 2.5;
-var inst2 = instance_create_layer(1408, 600, "Instances", obj_tempenemy1);
-inst2.image_xscale = -2.25;
-inst2.image_yscale = 2.25;
 
+var inst2 = instance_create_layer(1408, 300, "Instances", obj_npc);
+inst2.image_xscale = -1.25;
+inst2.image_yscale = 1.25;
 var inst3 = instance_create_layer(640, 960, "Instances", obj_card1);
-inst3.image_xscale = 0.5;
-inst3.image_yscale = 0.5;
+inst3.image_xscale = 0.3;
+inst3.image_yscale = 0.3;
 var inst4 = instance_create_layer(944, 960, "Instances", obj_card1);
-inst3.image_xscale = 0.5;
-inst3.image_yscale = 0.5;
+inst3.image_xscale = 0.3;
+inst3.image_yscale = 0.3;
 var inst5 = instance_create_layer(1248, 960, "Instances", obj_card2);
-inst3.image_xscale = 0.5;
-inst3.image_yscale = 0.5;
+inst3.image_xscale = 0.3;
+inst3.image_yscale = 0.3;
 
 function draw_card(x, y)
 {

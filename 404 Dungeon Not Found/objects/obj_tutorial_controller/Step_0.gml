@@ -1,82 +1,78 @@
 if (tutorial_active) {
-    switch(tutorial_step) {
-        case 0:
-            tutorial_text = "Welcome to the tutorial! Click to continue.";
-            waiting_for_input = true;
-            break;
-            
-        case 1:
-            tutorial_text = "This is your player character.";
-            waiting_for_input = true;
-            break;
-            
-        case 2:
-            tutorial_text = "This is your robot tutor. Let's practice attacking!";
-            waiting_for_input = true;
-            break;
-            
-        case 3:
-            tutorial_text = "Click on the robot to attack it!";
-            obj_npc.can_be_attacked = true; // allow player to click NPC
-            waiting_for_input = false; // wait for attack
-            break;
-            
-        case 4:
-            tutorial_text = "Great! Now watch the NPC attack.";
-            waiting_for_input = true;
-            obj_npc.attack_player(); // NPC attacks player
-            break;
-            
-        case 5:
-            tutorial_text = "Keep track of your HP! If it reaches 0, you lose.";
-            waiting_for_input = true;
-            break;
-            
-        case 6:
-            tutorial_text = "You now understand the basics of attacking and taking damage.";
-            waiting_for_input = true;
-            break;
-            
-        case 7:
-            tutorial_text = "Tutorial complete! Click to start the real game.";
-            waiting_for_input = true;
-            break;
-            
-        case 8:
-            room_goto(rm_map); // Go to main game
-            break;
+
+    //--------------------------------------
+    // Initialize new step
+    //--------------------------------------
+    if (tutorial_step != prev_step) {
+        prev_step = tutorial_step;
+        char_index = 0;
+        display_text = "";
+        letter_timer = 0;
+        waiting_for_input = false;
+
+        // Reset step-specific flags
+        waiting_for_card_click = false;
+        waiting_for_end_turn = false;
+
+        switch(tutorial_step) {
+            case 0:
+                dialogue_text = "Welcome to the tutorial! Hit Space to continue.";
+                break;
+            case 1:
+                dialogue_text = "This is your player character.";
+                break;
+
+            // Step 2: click any card to attack
+            case 2:
+                dialogue_text = "Let's practice attacking!";
+                waiting_for_card_click = true; // lock until card clicked
+                break;
+
+            // Step 3: instruction dialogue
+            case 3:
+                dialogue_text = "Great! You can keep attacking until you run out of MP or end your turn.";
+                break;
+
+            // Step 4: must click End Turn
+            case 4:
+                dialogue_text = "Try hitting the 'End Turn' button now.";
+                break;
+
+            case 5:
+                dialogue_text = "Keep track of your HP! If it reaches 0, you lose.";
+                break;
+            case 6:
+                dialogue_text = "You now understand the basics of attacking and taking damage.";
+                break;
+            case 7:
+                dialogue_text = "Tutorial complete! Hit Space to start the real game.";
+                break;
+            case 8:
+                room_goto(rm_map);
+                break;
+        }
     }
-	
-	if (char_index < string_length(dialogue_text)) {
-        letter_timer += 1;
+
+    //--------------------------------------
+    // Typewriter effect
+    //--------------------------------------
+    if (char_index < string_length(dialogue_text)) {
+        letter_timer++;
         if (letter_timer >= letter_delay) {
-            char_index += 1;
+            char_index++;
             display_text = string_copy(dialogue_text, 1, char_index);
             letter_timer = 0;
         }
         waiting_for_input = false;
     } else {
-        waiting_for_input = true; // player can click Next
-    }
-}
-
-// Handle tutorial step actions
-switch(tutorial_step) {
-    case 2:
-        global.turn = "player";
-        // Highlight the Strike card
-        for (var i = 0; i < array_length(obj_player.hand); i++) {
-            if (obj_player.hand[i].name == "Ping") {
-                player_target_card = obj_player.hand[i];
-            }
+        // Dialogue finished, determine allowed input
+        if (tutorial_step == 2 && waiting_for_card_click) {
+            waiting_for_input = false; // player must click a card
+        } else if (tutorial_step == 4) {
+            waiting_for_end_turn = true; // unlock End Turn button
+            waiting_for_input = false; // prevent Space/Next
+        } else {
+            waiting_for_input = true; // normal progression for other steps
         }
-        break;
-
-    case 3:
-        global.turn = "enemy";
-        obj_npc.attack_player(); // NPC attacks
-        tutorial_step += 1; // auto advance after attack
-        char_index = 0;
-        display_text = "";
-        break;
+    }
 }
