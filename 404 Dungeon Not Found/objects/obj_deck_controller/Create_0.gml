@@ -19,4 +19,4 @@ max_hand_size = 10;
 cards_to_draw_start_turn = 5;
 
 // Build deck
-scr_deck_build_starting_deck(); // see below
+scr_deck_build_starting_deck();

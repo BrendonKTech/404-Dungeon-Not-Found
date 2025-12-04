@@ -1,4 +1,4 @@
-if (global.turn == "player")
+/*if (global.turn == "player")
 {
 
 	if (obj_player.mp >= card_cost) 

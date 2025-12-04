@@ -1,7 +1,9 @@
 {
   "$GMObject":"",
   "%Name":"obj_card1",
-  "eventList":[],
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
   "name":"obj_card1",
   "overriddenProperties":[],
@@ -10,8 +12,8 @@
     "path":"folders/Objects/Cards.yy",
   },
   "parentObjectId":{
-    "name":"obj_cardParent",
-    "path":"objects/obj_cardParent/obj_cardParent.yy",
+    "name":"obj_cardParent2",
+    "path":"objects/obj_cardParent2/obj_cardParent2.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,

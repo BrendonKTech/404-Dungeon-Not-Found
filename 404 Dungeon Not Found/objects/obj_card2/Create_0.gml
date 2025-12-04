@@ -1,4 +1,6 @@
-card_cost = 2;
-card_heal = 30;
-target = noone;
-hovered = false;
+event_inherited();
+
+card_cost = 1;
+card_type = "skill";
+card_target = "self";
+block = 5;
