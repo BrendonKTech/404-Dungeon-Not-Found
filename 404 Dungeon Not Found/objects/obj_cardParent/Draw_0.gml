@@ -1,5 +1,5 @@
 
-var card_scale = 0.5;  // your current scale
+var card_scale = 0.5;  // current scale
 image_xscale = card_scale;
 image_yscale = card_scale;
 

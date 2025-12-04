@@ -20,7 +20,7 @@ var xx = pad + 180;
 
 // --- HEART / HP ---
 draw_sprite(spr_heart, 0, xx, y_mid - 20);
-draw_text(xx + 80, y_mid - 10, string(obj_tempplayer.hp) + " / " + string(obj_tempplayer.max_hp));
+draw_text(xx + 80, y_mid - 10, string(obj_player.hp) + " / " + string(obj_player.max_hp));
 xx += 160;
 
 
@@ -78,7 +78,7 @@ if (show_map_overlay) {
 }
 
 if (show_map_overlay) {
-    with (obj_map_controller) {
+    with (obj_tempmap_controller) {
         event_perform(ev_draw, 0); // force draw its Draw event UI-style
     }
 }

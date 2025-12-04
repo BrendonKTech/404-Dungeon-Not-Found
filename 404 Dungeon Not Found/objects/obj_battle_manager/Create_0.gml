@@ -27,7 +27,7 @@ inst6.image_xscale = -2.25;
 inst6.image_yscale = 2.25;
 inst6.sprite_index = enemy_asset;*/
 
-var inst = instance_create_layer(392, 600, "Instances", obj_tempplayer);
+var inst = instance_create_layer(392, 600, "Instances", obj_player);
 inst.image_xscale = 2.5;
 inst.image_yscale = 2.5;
 var inst2 = instance_create_layer(1408, 600, "Instances", obj_tempenemy1);
