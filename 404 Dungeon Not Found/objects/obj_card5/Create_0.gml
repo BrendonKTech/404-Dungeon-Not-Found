@@ -1,2 +1,2 @@
-/*Throttling Strike Cost: 2 Description: Apply network throttling, 
-dealing 12 damage and applying 2 Weak.*/
+/*Cost: 0 Description: Gain +2 Power (Strength) 
+this turn. Lose it afterward.*/

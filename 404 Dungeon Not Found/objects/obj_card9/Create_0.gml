@@ -1,2 +1,2 @@
-/*Boost Processor Cost: 0 Description: Gain +2 Power (Strength) this turn. 
-Lose it afterward.*/
+/*Cost: 0 Description: Next turn gain +1 energy, 
+but become 2 Vulnerable.*/

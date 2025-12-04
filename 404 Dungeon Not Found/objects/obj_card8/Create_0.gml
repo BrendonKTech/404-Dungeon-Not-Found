@@ -1,2 +1,1 @@
-/*Overclock Burn Cost: 1 Description: Overclock your system for power, 
-dealing 15 damage but take 3 self-damage.*/
+/*Cost: 0 Description: Trigger a power spike, gaining 2 energy this turn.*/
