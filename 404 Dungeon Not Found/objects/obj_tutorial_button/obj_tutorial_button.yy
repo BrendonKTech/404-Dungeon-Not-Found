@@ -1,20 +1,17 @@
 {
   "$GMObject":"",
-  "%Name":"obj_card4",
+  "%Name":"obj_tutorial_button",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_card4",
+  "name":"obj_tutorial_button",
   "overriddenProperties":[],
   "parent":{
-    "name":"Cards",
-    "path":"folders/Objects/Cards.yy",
+    "name":"Menu",
+    "path":"folders/Objects/Menu.yy",
   },
-  "parentObjectId":{
-    "name":"obj_cardParent",
-    "path":"objects/obj_cardParent/obj_cardParent.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -33,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_card4",
-    "path":"sprites/spr_card4/spr_card4.yy",
+    "name":"spr_buttonTutorial",
+    "path":"sprites/spr_buttonTutorial/spr_buttonTutorial.yy",
   },
   "spriteMaskId":null,
   "visible":true,

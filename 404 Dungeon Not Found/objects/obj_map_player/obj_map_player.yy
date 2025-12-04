@@ -1,20 +1,19 @@
 {
   "$GMObject":"",
-  "%Name":"obj_card4",
+  "%Name":"obj_map_player",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_card4",
+  "name":"obj_map_player",
   "overriddenProperties":[],
   "parent":{
-    "name":"Cards",
-    "path":"folders/Objects/Cards.yy",
+    "name":"Other",
+    "path":"folders/Objects/Other.yy",
   },
-  "parentObjectId":{
-    "name":"obj_cardParent",
-    "path":"objects/obj_cardParent/obj_cardParent.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -32,10 +31,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"spr_card4",
-    "path":"sprites/spr_card4/spr_card4.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

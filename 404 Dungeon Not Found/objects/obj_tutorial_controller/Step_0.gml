@@ -45,10 +45,10 @@ if (tutorial_active) {
                 dialogue_text = "You now understand the basics of attacking and taking damage.";
                 break;
             case 7:
-                dialogue_text = "Tutorial complete! Hit Space to start the real game.";
+                dialogue_text = "Tutorial complete! Hit Space to return to the menu.";
                 break;
             case 8:
-                room_goto(rm_map);
+                game_restart()
                 break;
         }
     }

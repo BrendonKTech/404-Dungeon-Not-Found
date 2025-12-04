@@ -1,4 +1,4 @@
-card_cost   = 1;
+/*card_cost   = 1;
 card_type   = "attack"; // "attack", "skill", "power"
 card_target = "enemy";  // "enemy", "self", "all"
 damage      = 0;

@@ -23,3 +23,8 @@ attack_speed  = 10;
 start_x       = x;
 start_y       = y;
 attack_offset = 100;
+
+hand = [];
+hand[0] = {name: "Strike", damage: 5};
+hand[1] = {name: "Defend", block: 5};
+hand[2] = {name: "Strike", damage: 5};

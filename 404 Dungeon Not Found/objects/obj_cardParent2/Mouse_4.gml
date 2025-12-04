@@ -1,4 +1,4 @@
-if (global.turn == "player") {
+/*if (global.turn == "player") {
 
     if (obj_player.energy >= card_cost) {
 
