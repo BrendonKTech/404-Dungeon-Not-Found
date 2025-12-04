@@ -1,2 +1,2 @@
-/*Recursive Call Cost: 1 Description: Deal 8 damage, increases by +5 each time 
-you play it this combat.*/
+/*Cost: 1 Description: Overclock your system for power, 
+dealing 15 damage but take 3 self-damage.*/

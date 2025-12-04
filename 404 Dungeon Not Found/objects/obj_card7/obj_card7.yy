@@ -29,7 +29,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_card7",
+    "path":"sprites/spr_card7/spr_card7.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

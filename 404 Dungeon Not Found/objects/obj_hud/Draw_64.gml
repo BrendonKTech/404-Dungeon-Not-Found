@@ -85,15 +85,13 @@ if (show_map_overlay) {
 
 var start_x = 50;
 var cy = 135;
-var spacing = 60; // distance between relic icons
+var spacing = 60; // distance between relic icons 
 
 for (var i = 0; i < array_length(global.relics); i++) {
-
-    var relic = global.relics[i];
-    var cx = start_x + (i * spacing);
-
-    // You must assign a sprite for each relic
-    var spr = scr_choose_relic_sprite(relic);
-
-    draw_sprite(spr, 0, cx, y);
+	var relic = global.relics[i];
+	var cx = start_x + (i * spacing);
+	
+	// You must assign a sprite for each relic
+	var spr = scr_choose_relic_sprite(relic);
+	draw_sprite(spr, 0, cx, y);
 }
