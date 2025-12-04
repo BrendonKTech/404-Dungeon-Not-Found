@@ -13,7 +13,7 @@ if (tutorial != noone && tutorial.tutorial_active) {
         global.turn = "enemy";
 
         // Start enemy attack
-        with (obj_tempenemy1) {
+        with (obj_npc) {
             if (!is_attacking) {
                 is_attacking = true;
                 attack_phase = 1;
@@ -27,7 +27,7 @@ if (tutorial != noone && tutorial.tutorial_active) {
 // Normal End Turn behavior if tutorial inactive
 else {
     global.turn = "enemy";
-    with (obj_tempenemy1) {
+    with (obj_npc) {
         if (!is_attacking) {
             is_attacking = true;
             attack_phase = 1;

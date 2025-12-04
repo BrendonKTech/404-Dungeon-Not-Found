@@ -24,7 +24,7 @@ if (tutorial_active) {
 
             // Step 2: click any card to attack
             case 2:
-                dialogue_text = "Let's practice attacking!";
+                dialogue_text = "Let's practice attacking! Click a card to attack!";
                 waiting_for_card_click = true; // lock until card clicked
                 break;
 
