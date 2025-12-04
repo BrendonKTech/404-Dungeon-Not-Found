@@ -2,9 +2,9 @@
   "$GMSprite":"v2",
   "%Name":"spr_relic7",
   "bboxMode":0,
-  "bbox_bottom":18,
+  "bbox_bottom":32,
   "bbox_left":0,
-  "bbox_right":27,
+  "bbox_right":47,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -16,7 +16,7 @@
   ],
   "gridX":0,
   "gridY":0,
-  "height":19,
+  "height":33,
   "HTile":false,
   "layers":[
     {"$GMImageLayer":"","%Name":"b9a4a6b9-8ed4-4edd-a6ea-8d01cf19e12c","blendMode":0,"displayName":"default","isLocked":false,"name":"b9a4a6b9-8ed4-4edd-a6ea-8d01cf19e12c","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
@@ -86,5 +86,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":28,
+  "width":48,
 }

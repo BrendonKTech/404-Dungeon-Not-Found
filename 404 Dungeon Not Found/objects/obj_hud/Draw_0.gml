@@ -20,3 +20,4 @@ for (var i = 0; i < array_length(obj_player.hand); i++) {
     var cy = room_height - 200;
     draw_self(); // cardParent handles scale, hover
 }
+

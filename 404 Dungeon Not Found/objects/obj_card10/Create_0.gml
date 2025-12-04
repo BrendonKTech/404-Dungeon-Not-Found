@@ -1,0 +1,1 @@
+/*Memory Purge Cost: 1 Description: Gain 7 block and delete (exhaust) a card from your hand.*/
