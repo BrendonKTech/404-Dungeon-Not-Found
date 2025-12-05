@@ -96,3 +96,41 @@ for (var i = 0; i < array_length(global.relics); i++) {
 	var spr = scr_choose_relic_sprite(relic);
 	draw_sprite(spr, 0, cx, y);
 }
+// === CLICK HANDLING FOR HUD ICONS ===
+if (mouse_check_button_pressed(mb_left))
+{
+    var mx = device_mouse_x_to_gui(0);
+    var my = device_mouse_y_to_gui(0);
+
+    // HUD icon positions (same as your draw code)
+    var gear_x  = room_width - 70;
+    var gear_y  = 50 - 20;
+
+    var cards_x = gear_x - 90;
+    var cards_y = gear_y;
+
+    var map_x   = cards_x - 90;
+    var map_y   = gear_y;
+
+    // ==== GEAR ICON ====
+    if (sprite_clicked(spr_gear, gear_x, gear_y, mx, my)) {
+        if (object_exists(obj_gear)) {
+            instance_create_layer(mx, my, "Instances", obj_gear);
+        }
+    }
+
+    // ==== CARDS ICON ====
+    if (sprite_clicked(spr_cards, cards_x, cards_y, mx, my)) {
+        if (object_exists(obj_card_icon)) {
+            instance_create_layer(mx, my, "Instances", obj_card_icon);
+        }
+    }
+
+    // ==== MAP ICON ====
+    if (sprite_clicked(spr_map_icon, map_x, map_y, mx, my)) {
+        if (object_exists(obj_map_icon)) {
+            instance_create_layer(mx, my, "Instances", obj_map_icon);
+			show_debug_message("Gear Clicked")
+        }
+    }
+}
