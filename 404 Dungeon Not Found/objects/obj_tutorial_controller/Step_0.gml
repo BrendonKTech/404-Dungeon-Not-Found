@@ -17,36 +17,44 @@ if (tutorial_active) {
         switch(tutorial_step) {
             case 0:
                 dialogue_text = "Welcome to the tutorial! Hit Space to continue.";
-                break;
+                audio_play_sound(snd_tutorial1, 1, false);
+				break;
             case 1:
                 dialogue_text = "This is your player character.";
+				audio_play_sound(snd_tutorial2, 1, false);
                 break;
 
             // Step 2: click any card to attack
             case 2:
                 dialogue_text = "Let's practice attacking! Click a card to attack!";
                 waiting_for_card_click = true; // lock until card clicked
-                break;
+                audio_play_sound(snd_tutorial3, 1, false);
+				break;
 
             // Step 3: instruction dialogue
             case 3:
                 dialogue_text = "Great! You can keep attacking until you run out of MP or end your turn.";
-                break;
+                audio_play_sound(snd_tutorial4, 1, false);
+				break;
 
             // Step 4: must click End Turn
             case 4:
                 dialogue_text = "Try hitting the 'End Turn' button now.";
-                break;
+                audio_play_sound(snd_tutorial5, 1, false);
+				break;
 
             case 5:
                 dialogue_text = "Keep track of your HP! If it reaches 0, you lose.";
-                break;
+                audio_play_sound(snd_tutorial6, 1, false);
+				break;
             case 6:
                 dialogue_text = "You now understand the basics of attacking and taking damage.";
-                break;
+                audio_play_sound(snd_tutorial7, 1, false);
+				break;
             case 7:
                 dialogue_text = "Tutorial complete! Hit Space to return to the menu.";
-                break;
+                audio_play_sound(snd_tutorial8, 1, false);
+				break;
             case 8:
                 game_restart()
                 break;
