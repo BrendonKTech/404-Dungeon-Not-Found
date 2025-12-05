@@ -14,6 +14,7 @@ draw_set_font(Font1);
 draw_set_color(c_white);
 draw_text(75, 40, global.player_name);
 
+
 // offset after name
 var xx = pad + 180;
 

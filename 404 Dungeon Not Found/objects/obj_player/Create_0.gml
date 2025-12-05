@@ -24,6 +24,7 @@ start_x       = x;
 start_y       = y;
 attack_offset = 100;
 
+potions = [];
 hand = [];
 hand[0] = {name: "Strike", damage: 5};
 hand[1] = {name: "Defend", block: 5};
