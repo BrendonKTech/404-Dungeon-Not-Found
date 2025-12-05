@@ -4,7 +4,7 @@ event_inherited()
 enemy_type = "elite"; // "normal" or "elite" or "boss"
 is_elite = true;
 
-max_hp = 150;
+max_hp = 128;
 hp = max_hp;
 shield = 5;
 

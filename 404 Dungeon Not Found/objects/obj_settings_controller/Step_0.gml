@@ -30,7 +30,7 @@ if (mouse_check_button(mb_left)) {
 }
 
 if (mouse_check_button_pressed(mb_left)) {
-    if (point_in_rectangle(mx, my, 50, 360, 350, 390)) {
+    if (point_in_rectangle(mx, my, 50, 390, 350, 450)) {
         global.fullscreen = !global.fullscreen;
         window_set_fullscreen(global.fullscreen);
     }
@@ -38,7 +38,7 @@ if (mouse_check_button_pressed(mb_left)) {
 
 
 if (mouse_check_button_pressed(mb_left)) {
-    if (point_in_rectangle(mx, my, 50, 450, 200, 500)) {
+    if (point_in_rectangle(mx, my, 50, 510, 200, 530)) {
         room_goto(rm_main_menu);
     }
 }
