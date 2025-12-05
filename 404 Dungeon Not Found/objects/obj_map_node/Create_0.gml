@@ -1,3 +1,3 @@
-image_xscale = 0.75;
-image_yscale = 0.75;
-unlocked = false; // only clickable if unlocked
+/// obj_map_node – PreCreate or Create
+node_index       = 0;    // unique ID per node
+is_boss_node     = false; // true for boss node
