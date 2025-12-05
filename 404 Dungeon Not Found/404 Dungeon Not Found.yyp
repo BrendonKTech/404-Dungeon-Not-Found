@@ -59,7 +59,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.14.1.210",
+    "IDEVersion":"2024.14.0.207",
   },
   "name":"404 Dungeon Not Found",
   "resources":[
@@ -178,10 +178,12 @@
     {"id":{"name":"scr_gain_block","path":"scripts/scr_gain_block/scr_gain_block.yy",},},
     {"id":{"name":"scr_get_shop_description","path":"scripts/scr_get_shop_description/scr_get_shop_description.yy",},},
     {"id":{"name":"scr_get_shop_name","path":"scripts/scr_get_shop_name/scr_get_shop_name.yy",},},
+    {"id":{"name":"scr_get_shop_rarity","path":"scripts/scr_get_shop_rarity/scr_get_shop_rarity.yy",},},
     {"id":{"name":"scr_get_shop_sprite","path":"scripts/scr_get_shop_sprite/scr_get_shop_sprite.yy",},},
     {"id":{"name":"scr_map_fix_disconnected","path":"scripts/scr_map_fix_disconnected/scr_map_fix_disconnected.yy",},},
     {"id":{"name":"scr_play_card","path":"scripts/scr_play_card/scr_play_card.yy",},},
     {"id":{"name":"scr_play_music","path":"scripts/scr_play_music/scr_play_music.yy",},},
+    {"id":{"name":"scr_point_in_circle","path":"scripts/scr_point_in_circle/scr_point_in_circle.yy",},},
     {"id":{"name":"scr_relic_add","path":"scripts/scr_relic_add/scr_relic_add.yy",},},
     {"id":{"name":"scr_relic_on_card_draw","path":"scripts/scr_relic_on_card_draw/scr_relic_on_card_draw.yy",},},
     {"id":{"name":"scr_relic_on_card_play","path":"scripts/scr_relic_on_card_play/scr_relic_on_card_play.yy",},},

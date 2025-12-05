@@ -27,8 +27,8 @@ var available_relics = [
     obj_glitchedBIOSbattery, obj_fiberOpticSpool, obj_quantumBitDrive
 ];
 
-// Cards for sale (3)
-for (var i = 0; i < 3; i++) {
+// Cards for sale (5)
+for (var i = 0; i < 5; i++) {
     var idx = irandom(array_length(available_cards) - 1);
     var c = available_cards[idx];
     array_push(cards_for_sale, c);
@@ -59,6 +59,10 @@ array_push(relic_prices, irandom_range(100, 200));
 shop_start_x = 300;
 shop_spacing_x = 250;
 
+shop_scale_cards = 3;
+shop_scale_potion = 3;
+shop_scale_relic = 3;
+
 y_cards   = 200;
 y_potions = 500;
 y_relics  = 750;
@@ -68,3 +72,7 @@ leave_x = 1700;
 leave_y = 1000;
 leave_w = 150;
 leave_h = 60;
+
+hover_scale_cards  = [];
+hover_scale_potion = [];
+hover_scale_relic  = [];

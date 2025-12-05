@@ -1,3 +1,44 @@
+// Draw background
+draw_sprite(spr_background2, 0, 0, 0);
+
+// Draw paths
+for (var i = 0; i < array_length(nodes); i++) {
+    var n = nodes[i];
+    for (var j = 0; j < array_length(n.next_nodes); j++) {
+        var next = nodes[n.next_nodes[j]];
+        draw_set_color(c_black);
+        draw_line(n.x, n.y, next.x, next.y);
+    }
+}
+
+// Draw nodes
+for (var i = 0; i < array_length(nodes); i++) {
+    var n = nodes[i];
+
+    // Highlight clickable nodes (next_nodes of visited nodes)
+    var clickable = false;
+    for (var j = 0; j < array_length(nodes); j++) {
+        if (nodes[j].visited && array_contains(nodes[j].next_nodes, i)) {
+            clickable = true;
+            break;
+        }
+    }
+
+    if (clickable) {
+        draw_set_color(c_yellow);
+        draw_circle(n.x, n.y, 40, false);
+    }
+
+    // Draw the node sprite
+    draw_sprite(n.sprite, 0, n.x, n.y);
+}
+
+
+
+
+
+
+
 /*/// APPLY CAMERA OFFSET
 matrix_set(matrix_world, matrix_build(-view_x, -view_y, 0, 0, 0, 0, 1, 1, 1));
 
