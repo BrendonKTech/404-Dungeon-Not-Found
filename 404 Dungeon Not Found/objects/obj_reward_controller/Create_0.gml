@@ -1,7 +1,4 @@
-/// =========================
 ///   CARD REWARD CONTROLLER
-/// =========================
-
 // The 3 possible cards
 reward_cards = [];
 
@@ -19,7 +16,5 @@ alpha_background = 0;
 close_timer = -1;
 
 // Each reward fills this from a script
-// Example: reward_cards = [obj_card3, obj_card12, obj_card9];
-
 // Y position for cards
 card_y = display_get_gui_height() / 2;

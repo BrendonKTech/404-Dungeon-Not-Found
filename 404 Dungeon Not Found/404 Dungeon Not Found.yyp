@@ -59,7 +59,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.14.1.210",
+    "IDEVersion":"2024.14.0.207",
   },
   "name":"404 Dungeon Not Found",
   "resources":[
@@ -69,7 +69,6 @@
     {"id":{"name":"obj_battle_manager","path":"objects/obj_battle_manager/obj_battle_manager.yy",},},
     {"id":{"name":"obj_battlemanager222","path":"objects/obj_battlemanager222/obj_battlemanager222.yy",},},
     {"id":{"name":"obj_battleStartText","path":"objects/obj_battleStartText/obj_battleStartText.yy",},},
-    {"id":{"name":"obj_block","path":"objects/obj_block/obj_block.yy",},},
     {"id":{"name":"obj_bot1","path":"objects/obj_bot1/obj_bot1.yy",},},
     {"id":{"name":"obj_bot3","path":"objects/obj_bot3/obj_bot3.yy",},},
     {"id":{"name":"obj_burntpowersupply","path":"objects/obj_burntpowersupply/obj_burntpowersupply.yy",},},
@@ -96,6 +95,7 @@
     {"id":{"name":"obj_debuggersToolkit","path":"objects/obj_debuggersToolkit/obj_debuggersToolkit.yy",},},
     {"id":{"name":"obj_deck_controller","path":"objects/obj_deck_controller/obj_deck_controller.yy",},},
     {"id":{"name":"obj_endTurn","path":"objects/obj_endTurn/obj_endTurn.yy",},},
+    {"id":{"name":"obj_enemy_parent","path":"objects/obj_enemy_parent/obj_enemy_parent.yy",},},
     {"id":{"name":"obj_enemy1","path":"objects/obj_enemy1/obj_enemy1.yy",},},
     {"id":{"name":"obj_enemy10","path":"objects/obj_enemy10/obj_enemy10.yy",},},
     {"id":{"name":"obj_enemy2","path":"objects/obj_enemy2/obj_enemy2.yy",},},
