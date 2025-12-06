@@ -199,6 +199,7 @@
     {"name":"Sound15","order":9,"path":"sounds/Sound15/Sound15.yy",},
     {"name":"spr_background2","order":1,"path":"sprites/spr_background2/spr_background2.yy",},
     {"name":"spr_background3","order":4,"path":"sprites/spr_background3/spr_background3.yy",},
+    {"name":"spr_boss_bg","order":6,"path":"sprites/spr_boss_bg/spr_boss_bg.yy",},
     {"name":"spr_boss","order":18,"path":"sprites/spr_boss/spr_boss.yy",},
     {"name":"spr_bot1","order":3,"path":"sprites/spr_bot1/spr_bot1.yy",},
     {"name":"spr_bot3","order":1,"path":"sprites/spr_bot3/spr_bot3.yy",},
@@ -303,6 +304,5 @@
     {"name":"spr_treasure","order":15,"path":"sprites/spr_treasure/spr_treasure.yy",},
     {"name":"spr_unknown","order":7,"path":"sprites/spr_unknown/spr_unknown.yy",},
     {"name":"spr_vulnerable","order":1,"path":"sprites/spr_vulnerable/spr_vulnerable.yy",},
-    {"name":"Sprite124","order":6,"path":"sprites/Sprite124/Sprite124.yy",},
   ],
 }

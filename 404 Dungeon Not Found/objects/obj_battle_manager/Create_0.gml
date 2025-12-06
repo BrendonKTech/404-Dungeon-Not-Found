@@ -66,6 +66,9 @@ for (var i = 0; i < enemy_count; i++) {
 }
 if (room == rm_boss)
 {
+var layer_id = layer_get_id("Background");
+var bg_id = layer_background_get_id(layer_id);
+layer_background_sprite(bg_id, spr_boss_bg);
 var enemy_count = 1; // number of regular enemies
 var enemy_list = [obj_enemy4];
 
