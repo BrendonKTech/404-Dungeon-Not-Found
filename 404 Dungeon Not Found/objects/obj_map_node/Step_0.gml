@@ -7,7 +7,8 @@ switch(node_state) {
 	case 4: sprite_index = spr_node_unlocked_elite; break;
 	case 5: sprite_index = spr_node_unlocked_merchant; break;
 	case 6: sprite_index = spr_node_unlocked_treasure; break;
-	case 7: sprite_index = spr_node_unlocked_boss; break;
+	case 7: sprite_index = spr_node_unlocked_campfire; break;
+	case 8: sprite_index = spr_node_unlocked_boss; break;
 }
 
 if (global.unlock_index) == (node_index)
@@ -30,9 +31,13 @@ if (global.unlock_index) == (node_index)
 	{
 		node_state = 6
 	}
-	else if type == "boss"
+	else if type == "campfire"
 	{
 		node_state = 7
+	}
+	else if type == "boss"
+	{
+		node_state = 8
 	}
 	else
 	{

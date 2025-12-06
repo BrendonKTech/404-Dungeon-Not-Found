@@ -26,3 +26,4 @@ for (var i = 0; i < node_count; i++) {
     // Add node to global map_nodes array
     array_push(global.map_nodes, n);
 }
+
