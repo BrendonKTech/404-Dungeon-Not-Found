@@ -4,7 +4,7 @@ if (global.turn == "enemy") {
         var e = enemies[i];
         if (instance_exists(e)) {
             // Apply damage to player
-			var damage_after_block = max(e.damage - obj_player.block, 0);
+			var damage_after_block = max(e.damage - obj_player.block - obj_player.auto_block, 0);
             global.hp -= damage_after_block;
 			obj_player.block = 0;
 			global.was_hit = true;
@@ -40,16 +40,20 @@ if (refresh_cards) {
 var draw1 = get_random_card()
 var draw2 = get_random_card()
 var draw3 = get_random_card()
+var draw4 = get_random_card()
 	
 	
-var inst3 = instance_create_layer(640, 960, "Instances", draw1);
+var inst3 = instance_create_layer(600, 960, "Instances", draw1);
 inst3.image_xscale = 0.5;
 inst3.image_yscale = 0.5;
-var inst4 = instance_create_layer(944, 960, "Instances", draw2);
-inst3.image_xscale = 0.5;
-inst3.image_yscale = 0.5;
-var inst5 = instance_create_layer(1248, 960, "Instances", draw3);
-inst3.image_xscale = 0.5;
-inst3.image_yscale = 0.5;
+var inst4 = instance_create_layer(800, 960, "Instances", draw2);
+inst4.image_xscale = 0.5;
+inst4.image_yscale = 0.5;
+var inst5 = instance_create_layer(1000, 960, "Instances", draw3);
+inst5.image_xscale = 0.5;
+inst5.image_yscale = 0.5;
+var inst6 = instance_create_layer(1200, 960, "Instances", draw4);
+inst6.image_xscale = 0.5;
+inst6.image_yscale = 0.5;
 refresh_cards = false
 }

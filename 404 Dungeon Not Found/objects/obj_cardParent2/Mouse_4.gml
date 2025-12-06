@@ -13,6 +13,7 @@ if (global.turn == "player" && obj_player.mp >= card_cost) {
 				global.extra_current_damage += 3
 			}
 			var dmg_text = instance_create_layer(target.x, target.y - 50, "Instances", obj_damage_number);
+dmg_text.depth = -1000;
         dmg_text.text = string(card_damage);
         dmg_text.color = c_red;
         dmg_text.vy = -1;
@@ -21,7 +22,14 @@ if (global.turn == "player" && obj_player.mp >= card_cost) {
 		}
 		if (is_block_card)
 		{
-			obj_player.block += block
+			if (is_auto_block)
+			{
+				obj_player.auto_block += auto_block
+			}
+			else
+			{
+				obj_player.block += block
+			}
 		}
 		
         obj_player.mp -= card_cost;

@@ -6,8 +6,8 @@ global.inventory = [0, 1, 2, 3]
 
 randomize();
 
-global.hp          = 100;
-global.max_hp      = 100;
+global.hp          = 200;
+global.max_hp      = 200;
 global.was_hit = false;
 global.enemy_hit = false;
 global.extra_current_damage = 3

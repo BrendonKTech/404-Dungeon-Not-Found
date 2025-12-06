@@ -5,7 +5,7 @@ max_mp   = 3;
 mp_next_turn = 0;
 
 block        = 0;
-block_end_turn = 0;
+auto_block = 0;
 
 vulnerable   = 0;
 weak         = 0;

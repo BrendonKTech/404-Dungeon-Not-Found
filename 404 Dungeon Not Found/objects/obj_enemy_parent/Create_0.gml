@@ -1,7 +1,7 @@
 // Basic Stats
 hp       = 99;      // change per enemy
 max_hp   = hp;
-damage   = 10;       // default attack damage
+damage   = 20;       // default attack damage
 shield   = 0;        // temporary shield for elites
 is_elite = false;    // elites can have shield or stronger attacks
 
