@@ -7,7 +7,7 @@ if (global.turn == "player" && obj_player.mp >= card_cost) {
     if (instance_exists(target)) {
 		if (is_damage_card)
 		{
-			target.hp -= card_damage;
+			target.hp -= (card_damage + target.vulnerable);
 			if (is_snowball_card)
 			{
 				global.extra_current_damage += 3
@@ -32,6 +32,14 @@ if (global.turn == "player" && obj_player.mp >= card_cost) {
 		if (is_mp_card)
 		{
 			obj_player.mp += gain_mp;
+		}
+		if (is_vulnerable_card)
+		{
+			target.vulnerable += vulnerable_amount;
+		}
+		if (is_self_vulnerable_card)
+		{
+			obj_player.vulnerable += vulnerable_amount;
 		}
 
 		instance_destroy()

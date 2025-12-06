@@ -4,6 +4,7 @@ if (global.turn == "enemy") {
         var e = enemies[i];
         if (instance_exists(e)) {
             // Apply damage to player
+			e.vulnerable = 0;
 			var damage_after_block = max(e.damage - obj_player.block - obj_player.auto_block, 0);
             global.hp -= damage_after_block;
 			obj_player.block = 0;
@@ -23,6 +24,7 @@ if (global.turn == "enemy") {
     if (global.player.mp > global.player.max_mp) global.player.mp = global.player.max_mp;
 
     refresh_cards = true;
+	obj_player.vulnerable = 0;
     global.turn = "player";
 }
 

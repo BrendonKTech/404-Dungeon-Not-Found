@@ -34,6 +34,12 @@
     {"$GMObjectProperty":"v2","%Name":"is_mp_card","filters":[],"listItems":[],"multiselect":false,"name":"is_mp_card","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"False","varType":3,},
     {"$GMObjectProperty":"v2","%Name":"is_snowball_card","filters":[],"listItems":[],"multiselect":false,"name":"is_snowball_card","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"False","varType":3,},
     {"$GMObjectProperty":"v2","%Name":"is_self_hurt_card","filters":[],"listItems":[],"multiselect":false,"name":"is_self_hurt_card","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"False","varType":3,},
+<<<<<<< HEAD
+=======
+    {"$GMObjectProperty":"v2","%Name":"is_auto_block","filters":[],"listItems":[],"multiselect":false,"name":"is_auto_block","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"False","varType":3,},
+    {"$GMObjectProperty":"v2","%Name":"is_vulnerable_card","filters":[],"listItems":[],"multiselect":false,"name":"is_vulnerable_card","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"False","varType":3,},
+    {"$GMObjectProperty":"v2","%Name":"is_self_vulnerable_card","filters":[],"listItems":[],"multiselect":false,"name":"is_self_vulnerable_card","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"False","varType":3,},
+>>>>>>> e865340a6f59d8690be18c76ee725601a69816f0
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
