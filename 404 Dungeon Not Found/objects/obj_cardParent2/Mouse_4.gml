@@ -1,7 +1,4 @@
-
-//-------
 if (global.turn == "player" && obj_player.mp >= card_cost) {
-
 
 
 

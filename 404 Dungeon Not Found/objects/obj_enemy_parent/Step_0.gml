@@ -37,3 +37,19 @@ if (global.turn == "enemy") {
         if (shield > 0) shield = 0;
     }
 }
+
+if (hp <= 0 && is_alive) {
+    is_alive = false;
+
+    with (obj_battle_manager) {
+        alarm[0] = 60;
+    }
+}
+
+if (!is_alive) {
+    image_alpha -= fade_speed;
+
+    if (image_alpha <= 0) {
+        instance_destroy();
+    }
+}

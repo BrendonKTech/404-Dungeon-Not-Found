@@ -754,8 +754,8 @@
   "maintainGms1Font":false,
   "name":"Font1",
   "parent":{
-    "name":"Fonts",
-    "path":"folders/Fonts.yy",
+    "name":"404 Dungeon Not Found",
+    "path":"404 Dungeon Not Found.yyp",
   },
   "pointRounding":0,
   "ranges":[

@@ -20,3 +20,6 @@ turn_counter = 0; // can alternate attack types
 
 // snd_attack = snd_enemy_attack; 
 // snd_hit    = snd_enemy_hit;
+
+is_alive = true;
+fade_speed = 0.05;

@@ -17,6 +17,14 @@ if node_index == 0
 if type == "random"
 {
 	type = get_random_room_type()
+	if (type = "treasure")
+	{
+		room_to_go = rm_treasure
+	}
+	if (type = "merchant")
+	{
+		room_to_go = rm_shop
+	}
 }
 
 if enemy_seed == 99

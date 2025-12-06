@@ -3,7 +3,7 @@ var bar_w = 80;
 var bar_h = 8;
 var offset_y = 100;
 
-var hp_percent = hp / max_hp;
+var hp_percent = global.hp / global.max_hp;
 
 
 
@@ -20,7 +20,7 @@ if (is_alive)
 	draw_rectangle(x - bar_w/2, y - sprite_height + offset_y, x + bar_w/2, y - sprite_height + offset_y + bar_h, true);
 
 	draw_set_color(c_white);
-	draw_text(x, y - sprite_height + offset_y - 20, string(hp) + " / " + string(max_hp));
+	draw_text(x, y - sprite_height + offset_y - 20, string(global.hp) + " / " + string(global.max_hp));
 
     draw_self();
 }
