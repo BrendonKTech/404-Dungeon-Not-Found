@@ -19,7 +19,11 @@ if (global.unlock_index) == (node_index)
 	{
 		node_state = 3
 	}
-	else if type == "elite"
+	else if type == "elite1"
+	{
+		node_state = 4
+	}
+	else if type == "elite2"
 	{
 		node_state = 4
 	}

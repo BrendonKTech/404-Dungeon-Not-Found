@@ -9,3 +9,4 @@ hits        = 1;        // multi-hit attacks
 
 hovered     = false;
 lift_amount = -30;
+depth = -9999;

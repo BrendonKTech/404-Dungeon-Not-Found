@@ -18,7 +18,7 @@ xx += 180;
 
 // --- HEART / HP ---
 draw_sprite(spr_heart, 0, xx, y_mid - 20);
-draw_text(xx + 80, y_mid - 10, string(obj_player.hp) + " / " + string(obj_player.max_hp));
+draw_text(xx + 80, y_mid - 10, string(global.hp) + " / " + string(global.max_hp));
 xx += 160;
 
 // GOLD

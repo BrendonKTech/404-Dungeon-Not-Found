@@ -4,7 +4,7 @@ if (global.turn == "enemy") {
         var e = enemies[i];
         if (instance_exists(e)) {
             // Apply damage to player
-            global.player.hp -= e.damage;
+            global.hp -= e.damage;
 
             // Floating damage numbers
             var dmg_text = instance_create_layer(global.player.x, global.player.y - 150, "Instances", obj_damage_number);

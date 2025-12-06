@@ -1,6 +1,10 @@
+// Convert mouse to GUI coordinates
+var mx = device_mouse_x_to_gui(0);
+var my = device_mouse_y_to_gui(0);
+
 // Leave Button
-if (mouse_x >= leave_x && mouse_x <= leave_x + leave_w &&
-    mouse_y >= leave_y && mouse_y <= leave_y + leave_h) {
+if (mx >= leave_x && mx <= leave_x + leave_w &&
+    my >= leave_y && my <= leave_y + leave_h) {
 
     room_goto(rm_map);
     return;

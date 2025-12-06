@@ -5,3 +5,6 @@ if (!variable_global_exists("unlock_index")) {
 global.inventory = [0, 1, 2, 3]
 
 randomize();
+
+global.hp          = 100;
+global.max_hp      = 100;
