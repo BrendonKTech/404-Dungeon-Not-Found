@@ -66,6 +66,7 @@
     {"id":{"name":"fnt_menu","path":"fonts/fnt_menu/fnt_menu.yy",},},
     {"id":{"name":"Font1","path":"fonts/Font1/Font1.yy",},},
     {"id":{"name":"obj_audio_controller","path":"objects/obj_audio_controller/obj_audio_controller.yy",},},
+    {"id":{"name":"obj_battle_manager_tutorial","path":"objects/obj_battle_manager_tutorial/obj_battle_manager_tutorial.yy",},},
     {"id":{"name":"obj_battle_manager","path":"objects/obj_battle_manager/obj_battle_manager.yy",},},
     {"id":{"name":"obj_battlemanager222","path":"objects/obj_battlemanager222/obj_battlemanager222.yy",},},
     {"id":{"name":"obj_battleStartText","path":"objects/obj_battleStartText/obj_battleStartText.yy",},},

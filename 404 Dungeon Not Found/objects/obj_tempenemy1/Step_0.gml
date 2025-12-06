@@ -1,7 +1,7 @@
 if (hp <= 0 && is_alive) {
     is_alive = false;
 
-    with (obj_battle_manager) {
+    with (obj_battle_manager_tutorial) {
         alarm[0] = 60;
     }
 }

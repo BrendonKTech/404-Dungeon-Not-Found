@@ -45,6 +45,7 @@
   "ResourceOrderSettings":[
     {"name":"fnt_menu","order":1,"path":"fonts/fnt_menu/fnt_menu.yy",},
     {"name":"obj_audio_controller","order":11,"path":"objects/obj_audio_controller/obj_audio_controller.yy",},
+    {"name":"obj_battle_manager","order":21,"path":"objects/obj_battle_manager/obj_battle_manager.yy",},
     {"name":"obj_battleStartText","order":1,"path":"objects/obj_battleStartText/obj_battleStartText.yy",},
     {"name":"obj_bot1","order":1,"path":"objects/obj_bot1/obj_bot1.yy",},
     {"name":"obj_bot3","order":3,"path":"objects/obj_bot3/obj_bot3.yy",},
