@@ -170,6 +170,7 @@
     {"name":"scr_relic_on_turn_end","order":2,"path":"scripts/scr_relic_on_turn_end/scr_relic_on_turn_end.yy",},
     {"name":"scr_relic_on_turn_start","order":3,"path":"scripts/scr_relic_on_turn_start/scr_relic_on_turn_start.yy",},
     {"name":"scr_show_card_reward","order":10,"path":"scripts/scr_show_card_reward/scr_show_card_reward.yy",},
+    {"name":"Script36","order":16,"path":"scripts/Script36/Script36.yy",},
     {"name":"snd_attack","order":5,"path":"sounds/snd_attack/snd_attack.yy",},
     {"name":"snd_background","order":1,"path":"sounds/snd_background/snd_background.yy",},
     {"name":"snd_player_hit","order":6,"path":"sounds/snd_player_hit/snd_player_hit.yy",},
@@ -288,5 +289,6 @@
     {"name":"spr_treasure","order":15,"path":"sprites/spr_treasure/spr_treasure.yy",},
     {"name":"spr_unknown","order":7,"path":"sprites/spr_unknown/spr_unknown.yy",},
     {"name":"spr_vulnerable","order":1,"path":"sprites/spr_vulnerable/spr_vulnerable.yy",},
+    {"name":"Sprite124","order":6,"path":"sprites/Sprite124/Sprite124.yy",},
   ],
 }
