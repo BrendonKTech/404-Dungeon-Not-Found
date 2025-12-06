@@ -6,5 +6,5 @@ event_inherited()
 card_cost = 1;
 card_type = "attack";
 card_target = "enemy";
-damage = 15;
+card_damage = 15;
 self_damage = 3;
