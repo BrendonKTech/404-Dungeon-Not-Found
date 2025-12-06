@@ -151,6 +151,8 @@
     {"id":{"name":"obj_tempmap_controller","path":"objects/obj_tempmap_controller/obj_tempmap_controller.yy",},},
     {"id":{"name":"obj_tempplayer","path":"objects/obj_tempplayer/obj_tempplayer.yy",},},
     {"id":{"name":"obj_title","path":"objects/obj_title/obj_title.yy",},},
+    {"id":{"name":"obj_treasure_opened","path":"objects/obj_treasure_opened/obj_treasure_opened.yy",},},
+    {"id":{"name":"obj_treasure","path":"objects/obj_treasure/obj_treasure.yy",},},
     {"id":{"name":"obj_tutorial_button","path":"objects/obj_tutorial_button/obj_tutorial_button.yy",},},
     {"id":{"name":"obj_tutorial_controller","path":"objects/obj_tutorial_controller/obj_tutorial_controller.yy",},},
     {"id":{"name":"Object54","path":"objects/Object54/Object54.yy",},},
