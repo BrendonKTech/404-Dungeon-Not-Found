@@ -1,4 +1,4 @@
-function scr_deck_draw_cards(n){
+function scr_deck_draw_cards(_n){
 	for (var i = 0; i < _n; i++) {
 
         // If draw pile is empty, reshuffle discard pile

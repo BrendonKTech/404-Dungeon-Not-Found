@@ -3,7 +3,13 @@ function scr_play_card(_card, _target) {
     var c = _card;
     var cost = c.card_cost;
 
-    obj_player.mp -= cost;
+    if (obj_player.mp >= cost) {
+		obj_player.mp -= cost;
+	} else {
+		show_debug_message("Not enough MP to play this card!");
+		return;
+	}
+
 
     if (c.card_type == "attack") {
 

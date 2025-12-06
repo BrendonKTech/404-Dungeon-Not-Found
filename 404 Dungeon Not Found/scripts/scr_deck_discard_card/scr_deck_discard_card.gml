@@ -15,7 +15,7 @@ function scr_deck_discard_card(_card) {
     if (!variable_instance_exists(p, "player_discard") || p.player_discard == undefined) p.player_discard = [];
 
     // Push the card's object index into discard pile
-    array_push(p.player_discard, _card.object_index);
+    ds_list_add(p.player_discard, _card.object_index);
 
     // Destroy the card instance
     with (_card) instance_destroy();
