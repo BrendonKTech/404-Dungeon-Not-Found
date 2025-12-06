@@ -59,7 +59,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.14.1.210",
+    "IDEVersion":"2024.14.0.207",
   },
   "name":"404 Dungeon Not Found",
   "resources":[
@@ -75,6 +75,7 @@
     {"id":{"name":"obj_burntpowersupply","path":"objects/obj_burntpowersupply/obj_burntpowersupply.yy",},},
     {"id":{"name":"obj_campfire","path":"objects/obj_campfire/obj_campfire.yy",},},
     {"id":{"name":"obj_card_icon","path":"objects/obj_card_icon/obj_card_icon.yy",},},
+    {"id":{"name":"obj_card","path":"objects/obj_card/obj_card.yy",},},
     {"id":{"name":"obj_card1","path":"objects/obj_card1/obj_card1.yy",},},
     {"id":{"name":"obj_card10","path":"objects/obj_card10/obj_card10.yy",},},
     {"id":{"name":"obj_card11","path":"objects/obj_card11/obj_card11.yy",},},
@@ -171,6 +172,7 @@
     {"id":{"name":"MapNode","path":"scripts/MapNode/MapNode.yy",},},
     {"id":{"name":"scr_add_card_to_deck","path":"scripts/scr_add_card_to_deck/scr_add_card_to_deck.yy",},},
     {"id":{"name":"scr_add_potion_to_inventory","path":"scripts/scr_add_potion_to_inventory/scr_add_potion_to_inventory.yy",},},
+    {"id":{"name":"scr_apply_effect","path":"scripts/scr_apply_effect/scr_apply_effect.yy",},},
     {"id":{"name":"scr_apply_vulnerable","path":"scripts/scr_apply_vulnerable/scr_apply_vulnerable.yy",},},
     {"id":{"name":"scr_apply_weak","path":"scripts/scr_apply_weak/scr_apply_weak.yy",},},
     {"id":{"name":"scr_attack_player","path":"scripts/scr_attack_player/scr_attack_player.yy",},},

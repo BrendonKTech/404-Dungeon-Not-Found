@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_apply_effect",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_apply_effect",
+  "parent":{
+    "name":"Cards",
+    "path":"folders/Scripts/Cards.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

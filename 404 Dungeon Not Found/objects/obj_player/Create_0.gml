@@ -7,8 +7,6 @@ mp_next_turn = 0;
 
 block        = 0;
 block_end_turn = 0;
-//strength     = 0;
-//strength_temp = 0;
 
 vulnerable   = 0;
 weak         = 0;
@@ -25,6 +23,9 @@ start_y       = y;
 attack_offset = 100;
 
 potions = [];
+
+draw_pile = ds_list_create();
+//ds_list_destroy(draw_pile);
 
 hand = [];
 player_deck = [];
