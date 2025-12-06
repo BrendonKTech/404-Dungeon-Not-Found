@@ -41,14 +41,7 @@ inst2.image_xscale = -1.25;
 inst2.image_yscale = 1.25;
 
 // Spawn initial cards
-var inst3 = instance_create_layer(640, 960, "Instances", obj_card1);
-inst3.image_xscale = 0.3; inst3.image_yscale = 0.3;
 
-var inst4 = instance_create_layer(944, 960, "Instances", obj_card1);
-inst4.image_xscale = 0.3; inst4.image_yscale = 0.3;
-
-var inst5 = instance_create_layer(1248, 960, "Instances", obj_card2);
-inst5.image_xscale = 0.3; inst5.image_yscale = 0.3;
 
 // Card draw function
 function draw_card(x, y) {
