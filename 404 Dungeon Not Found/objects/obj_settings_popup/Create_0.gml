@@ -30,3 +30,8 @@ back_x1 = base_x + pad_left;
 back_y1 = base_y + 420;
 back_x2 = back_x1 + 150;
 back_y2 = back_y1 + 30;
+// Quit button (bottom-right of popup)
+quit_x2 = base_x + popup_width - pad_left;
+quit_x1 = quit_x2 - 150;
+quit_y2 = base_y + popup_height - 40;
+quit_y1 = quit_y2 - 30;

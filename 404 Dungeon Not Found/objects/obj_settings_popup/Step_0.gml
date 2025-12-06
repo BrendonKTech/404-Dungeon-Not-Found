@@ -43,3 +43,9 @@ if (mouse_check_button_pressed(mb_left)) {
         instance_destroy();
     }
 }
+// Quit button
+if (mouse_check_button_pressed(mb_left)) {
+    if (point_in_rectangle(mx, my, quit_x1, quit_y1, quit_x2, quit_y2)) {
+        game_end();
+    }
+}

@@ -53,3 +53,5 @@ back_y1 = base_y + 420;
 back_x2 = back_x1 + 150;
 back_y2 = back_y1 + 30;
 draw_text((back_x1 + back_x2)/2, (back_y1 + back_y2)/2, "Back");
+// Quit button
+draw_text((quit_x1 + quit_x2)/2, (quit_y1 + quit_y2)/2, "Quit Game");
