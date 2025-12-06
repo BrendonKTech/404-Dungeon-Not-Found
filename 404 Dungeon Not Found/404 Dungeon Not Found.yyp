@@ -139,6 +139,7 @@
     {"id":{"name":"obj_quantumBitDrive","path":"objects/obj_quantumBitDrive/obj_quantumBitDrive.yy",},},
     {"id":{"name":"obj_quantumcoolingfan","path":"objects/obj_quantumcoolingfan/obj_quantumcoolingfan.yy",},},
     {"id":{"name":"obj_quit_button","path":"objects/obj_quit_button/obj_quit_button.yy",},},
+    {"id":{"name":"obj_quit_confirm_popup","path":"objects/obj_quit_confirm_popup/obj_quit_confirm_popup.yy",},},
     {"id":{"name":"obj_relic_controller","path":"objects/obj_relic_controller/obj_relic_controller.yy",},},
     {"id":{"name":"obj_reward_controller","path":"objects/obj_reward_controller/obj_reward_controller.yy",},},
     {"id":{"name":"obj_settings_button","path":"objects/obj_settings_button/obj_settings_button.yy",},},

@@ -113,6 +113,7 @@
     {"name":"obj_quantumBitDrive","order":11,"path":"objects/obj_quantumBitDrive/obj_quantumBitDrive.yy",},
     {"name":"obj_quantumcoolingfan","order":2,"path":"objects/obj_quantumcoolingfan/obj_quantumcoolingfan.yy",},
     {"name":"obj_quit_button","order":2,"path":"objects/obj_quit_button/obj_quit_button.yy",},
+    {"name":"obj_quit_confirm_popup","order":26,"path":"objects/obj_quit_confirm_popup/obj_quit_confirm_popup.yy",},
     {"name":"obj_relic_controller","order":13,"path":"objects/obj_relic_controller/obj_relic_controller.yy",},
     {"name":"obj_reward_controller","order":16,"path":"objects/obj_reward_controller/obj_reward_controller.yy",},
     {"name":"obj_settings_button","order":1,"path":"objects/obj_settings_button/obj_settings_button.yy",},
