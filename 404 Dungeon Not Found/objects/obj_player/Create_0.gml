@@ -10,7 +10,7 @@ block_end_turn = 0;
 
 vulnerable   = 0;
 weak         = 0;
-
+global.temp_mp = 0;
 global.player = id;
 
 is_alive      = true;

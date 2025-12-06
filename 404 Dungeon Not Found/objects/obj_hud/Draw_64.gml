@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-
-=======
->>>>>>> a296dd5c14db4105eff0cd408ff4e613cfb14cf2
 // HUD BAR BACKGROUND
 draw_sprite_stretched(spr_topbar, 0, 0, 0, room_width, 800);
 
@@ -9,7 +5,6 @@ draw_sprite_stretched(spr_topbar, 0, 0, 0, room_width, 800);
 var pad = 20;
 var y_mid = 50;
 
-<<<<<<< HEAD
 // Starting X positions
 var pad     = 20;
 var y_mid   = 50;
@@ -17,10 +12,6 @@ var y_mid   = 50;
 
 // PLAYER NAME
 
-// === LEFT SIDE HUD ===
-
-=======
->>>>>>> a296dd5c14db4105eff0cd408ff4e613cfb14cf2
 draw_set_font(Font1);
 draw_set_color(c_white);
 
@@ -35,24 +26,15 @@ draw_sprite(spr_heart, 0, xx, y_mid - 20);
 draw_text(xx + 80, y_mid - 10, string(obj_player.hp) + " / " + string(obj_player.max_hp));
 xx += 160;
 
-<<<<<<< HEAD
 
 
 // GOLD
-=======
-// --- GOLD ---
->>>>>>> a296dd5c14db4105eff0cd408ff4e613cfb14cf2
 draw_sprite(spr_gold, 0, xx, y_mid - 20);
 draw_text(xx + 50, y_mid - 10, string(global.gold));
 xx += 140;
 
-<<<<<<< HEAD
-
 
 // POTIONS (3 slots)
-=======
-// --- POTIONS (3 slots) ---
->>>>>>> a296dd5c14db4105eff0cd408ff4e613cfb14cf2
 for (var i = 0; i < 3; i++)
 {
     draw_sprite(spr_empty_potion, 0, xx, y_mid - 20);
@@ -64,7 +46,6 @@ var start_x = 50;
 var cy = 135;
 var spacing = 60;
 
-<<<<<<< HEAD
 // Position from right side inward
 var rx = room_width - 70;
 
@@ -85,8 +66,6 @@ rx -= 90;
 
 
 // MAP OVERLAY
-=======
->>>>>>> a296dd5c14db4105eff0cd408ff4e613cfb14cf2
 for (var i = 0; i < array_length(global.relics); i++)
 {
     var relic = global.relics[i];
@@ -95,29 +74,28 @@ for (var i = 0; i < array_length(global.relics); i++)
     draw_sprite(spr, 0, cx, y_mid);
 }
 
-<<<<<<< HEAD
 // === OVERLAYS ===
 if (show_map_overlay) {
-=======
-// === RIGHT-SIDE ICONS ===
-var rx = room_width - 70;
+	
+	// === RIGHT-SIDE ICONS ===
+	var rxx = room_width - 70;
 
-// GEAR
-draw_sprite(spr_gear, 0, rx, y_mid - 20);
-rx -= 90;
+	// GEAR
+	draw_sprite(spr_gear, 0, rx, y_mid - 20);
+	rx -= 90;
 
-// CARDS (deck)
-draw_sprite(spr_cards, 0, rx, y_mid - 20);
-rx -= 90;
+	// CARDS (deck)
+	draw_sprite(spr_cards, 0, rx, y_mid - 20);
+	rx -= 90;
 
-// MAP
-draw_sprite(spr_map_icon, 0, rx, y_mid - 20);
-rx -= 90;
+	// MAP
+	draw_sprite(spr_map_icon, 0, rx, y_mid - 20);
+	rx -= 90;
+}
 
 // === MAP OVERLAY ===
 if (show_map_overlay)
 {
->>>>>>> a296dd5c14db4105eff0cd408ff4e613cfb14cf2
     // Dark transparent background
     draw_set_color(make_color_rgba(0, 0, 0, 180));
     draw_rectangle(0, 0, display_get_gui_width(), display_get_gui_height(), false);
