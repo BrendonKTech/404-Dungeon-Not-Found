@@ -64,6 +64,28 @@ for (var i = 0; i < enemy_count; i++) {
     array_push(enemies, enemy_inst);
 }
 }
+if (room == rm_boss)
+{
+var enemy_count = 1; // number of regular enemies
+var enemy_list = [obj_enemy4];
+
+for (var i = 0; i < enemy_count; i++) {
+    var enemy_type = enemy_list[irandom(array_length(enemy_list) - 1)];
+    var x_pos = 1400 + i * 300;
+    var y_pos = 700
+
+    var enemy_inst = instance_create_layer(x_pos, y_pos, "Instances", enemy_type);
+    enemy_inst.image_xscale = 0.6;
+    enemy_inst.image_yscale = 0.6;
+	if (instance_exists(enemy_inst)) {
+    show_debug_message("Enemy spawned: " + string(enemy_inst));
+} else {
+    show_debug_message("Failed to spawn enemy!");
+}
+
+    array_push(enemies, enemy_inst);
+}
+}
 
 // Spawn NPC (from merged branch)
 

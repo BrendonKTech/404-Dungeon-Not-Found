@@ -26,8 +26,3 @@ if type == "random"
 		room_to_go = rm_shop
 	}
 }
-
-if enemy_seed == 99
-{
-	enemy_seed = get_random_enemy_seed()
-}

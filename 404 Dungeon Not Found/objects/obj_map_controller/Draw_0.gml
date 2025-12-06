@@ -1,19 +1,37 @@
-// obj_map_controller Draw Event
 draw_set_color(c_white);
 
-// loop through node connections
-for (var i = 0; i < array_length(global.map_nodes)-1; i++)
+// loop through all map nodes
+for (var i = 0; i < array_length(global.map_nodes); i++)
 {
-    var n1 = global.map_nodes[i];
-    var n2 = global.map_nodes[i+1];
+    var n = global.map_nodes[i];
+    if (!instance_exists(n)) continue;
 
-    // SAFETY FIX — skip missing nodes
-    if (!instance_exists(n1)) continue;
-    if (!instance_exists(n2)) continue;
-
-    // only draw if both nodes are unlocked or cleared
-    if (n1.node_state > 0 && n2.node_state > 0)
+    // --- Draw forward connection (connects_to) ---
+    if (n.connects_to != noone)
     {
-        draw_line(n1.x, n1.y, n2.x, n2.y);
+        var to = n.connects_to;
+
+        if (instance_exists(to))
+        {
+            // only draw if both nodes are unlocked / active
+            if (n.node_state > 0 && to.node_state > 0)
+            {
+                draw_line(n.x, n.y, to.x, to.y);
+            }
+        }
+    }
+
+    // --- Draw backward connection (connects_from) ---
+    if (n.connects_from != noone)
+    {
+        var from = n.connects_from;
+
+        if (instance_exists(from))
+        {
+            if (n.node_state > 0 && from.node_state > 0)
+            {
+                draw_line(n.x, n.y, from.x, from.y);
+            }
+        }
     }
 }

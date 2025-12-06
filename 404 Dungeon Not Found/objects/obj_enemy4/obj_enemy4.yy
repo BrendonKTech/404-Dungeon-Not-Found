@@ -6,7 +6,10 @@
   ],
   "managed":true,
   "name":"obj_enemy4",
-  "overriddenProperties":[],
+  "overriddenProperties":[
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_enemy_parent","path":"objects/obj_enemy_parent/obj_enemy_parent.yy",},"propertyId":{"name":"damage_sprite","path":"objects/obj_enemy_parent/obj_enemy_parent.yy",},"resource":{"name":"spr_enemy4_hurt","path":"sprites/spr_enemy4_hurt/spr_enemy4_hurt.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"spr_enemy4_hurt",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_enemy_parent","path":"objects/obj_enemy_parent/obj_enemy_parent.yy",},"propertyId":{"name":"idle_sprite","path":"objects/obj_enemy_parent/obj_enemy_parent.yy",},"resource":{"name":"spr_enemy4_idle","path":"sprites/spr_enemy4_idle/spr_enemy4_idle.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"spr_enemy4_idle",},
+  ],
   "parent":{
     "name":"Fighters",
     "path":"folders/Objects/Fighters.yy",
@@ -33,8 +36,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_enemy4_idle",
-    "path":"sprites/spr_enemy4_idle/spr_enemy4_idle.yy",
+    "name":"spr_enemy4_hurt",
+    "path":"sprites/spr_enemy4_hurt/spr_enemy4_hurt.yy",
   },
   "spriteMaskId":null,
   "visible":true,
