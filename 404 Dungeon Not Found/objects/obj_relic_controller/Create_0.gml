@@ -1,22 +1,17 @@
 if (instance_number(obj_relic_controller) > 1) {
-	instance_destroy();
-	exit;
+    instance_destroy();
+    exit;
 }
 
 global.relics = [];
+
 global.temp_mp = 0;
-global.upgrade_first_draw = false;
-
-global.cards_players_this_turn = 0;
-global.shuffled_recently = false;	// Quantum Bit Drive
-global.used_glitched_bios = false;	// Once per combat
-global.first_unblocked_taken = false;  // for Firewall Chipset
-
-card_temp = noone;
-damage_temp = 0;
-target_temp = noone;
+global.strength = 0;
+global.apply_weak_on_attack = false;
+global.apply_vulnerable_on_attack = false;
 
 
+/*
 // Apply effect for Burnt Power Supply
 if (array_contains(global.relics, obj_burntpowersupply)) {
     obj_player.weak += 1;

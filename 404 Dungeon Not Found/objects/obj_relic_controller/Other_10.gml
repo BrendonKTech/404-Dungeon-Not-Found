@@ -1,15 +1,24 @@
-var card = card_temp;
-
-// Corrupted RAM Stick — Gain 1 Block when drawing a Status
-if (array_contains(global.relics, obj_corruptedRamstick)) {
-    if (card.type == "status") {
-        obj_player.block += 1;
-    }
+if (array_contains(global.relics, obj_burntpowersupply)) {
+    obj_player.max_hp += 10;
+    obj_player.hp += 10; // heal to match
 }
 
-// Fiber Optic Spool — First card drawn is upgraded
+// Player starts combat Weak
+if (array_contains(global.relics, obj_corruptedRamstick)) {
+    obj_player.weak += 1;
+}
+
+// Strength relic (+1 dmg on attacks)
+if (array_contains(global.relics, obj_debuggersToolkit)) {
+    global.strength = 1;
+}
+
+// Auto-apply Weak on attack
 if (array_contains(global.relics, obj_fiberOpticSpool)) {
-    if (global.cards_players_this_turn == 0) {
-        global.upgrade_first_draw = true;
-    }
+    global.apply_weak_on_attack = true;
+}
+
+// Auto-apply Vulnerable on attack
+if (array_contains(global.relics, obj_glitchedBIOSbattery)) {
+    global.apply_vulnerable_on_attack = true;
 }
