@@ -18,3 +18,8 @@ if type == "random"
 {
 	type = get_random_room_type()
 }
+
+if enemy_seed == 99
+{
+	enemy_seed = get_random_enemy_seed()
+}

@@ -171,6 +171,7 @@
     {"id":{"name":"rm_unknown","path":"rooms/rm_unknown/rm_unknown.yy",},},
     {"id":{"name":"draw_cards","path":"scripts/draw_cards/draw_cards.yy",},},
     {"id":{"name":"generate_map","path":"scripts/generate_map/generate_map.yy",},},
+    {"id":{"name":"get_random_enemy_seed","path":"scripts/get_random_enemy_seed/get_random_enemy_seed.yy",},},
     {"id":{"name":"get_random_room_type","path":"scripts/get_random_room_type/get_random_room_type.yy",},},
     {"id":{"name":"MapNode","path":"scripts/MapNode/MapNode.yy",},},
     {"id":{"name":"scr_add_card_to_deck","path":"scripts/scr_add_card_to_deck/scr_add_card_to_deck.yy",},},
