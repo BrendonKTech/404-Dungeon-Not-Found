@@ -138,6 +138,7 @@
     {"id":{"name":"obj_npc","path":"objects/obj_npc/obj_npc.yy",},},
     {"id":{"name":"obj_other_room_audio","path":"objects/obj_other_room_audio/obj_other_room_audio.yy",},},
     {"id":{"name":"obj_overclockedCPU","path":"objects/obj_overclockedCPU/obj_overclockedCPU.yy",},},
+    {"id":{"name":"obj_persist","path":"objects/obj_persist/obj_persist.yy",},},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
     {"id":{"name":"obj_potion_energy","path":"objects/obj_potion_energy/obj_potion_energy.yy",},},
     {"id":{"name":"obj_potion_health","path":"objects/obj_potion_health/obj_potion_health.yy",},},

@@ -62,7 +62,7 @@ Players build and customize a deck of cards and use them strategically to defeat
 
 - Developed in **GameMaker Studio II**  
 - Inspired by *Slay the Spire*  
-- Main Menu theme, Main theme,Map theme, and sound effects by Manoah Allen
+- Main Menu theme, Main theme, Map theme, and sound effects by Manoah Allen
 
 ## Used art
 - https://creativekind.itch.io/nightborne-warrior
