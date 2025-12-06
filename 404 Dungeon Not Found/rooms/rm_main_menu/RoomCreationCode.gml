@@ -10,3 +10,4 @@ global.hp          = 100;
 global.max_hp      = 100;
 global.was_hit = false;
 global.enemy_hit = false;
+global.extra_current_damage = 3

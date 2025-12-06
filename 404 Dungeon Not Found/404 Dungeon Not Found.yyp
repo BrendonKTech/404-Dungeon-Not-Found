@@ -214,6 +214,7 @@
     {"id":{"name":"scr_relic_on_turn_end","path":"scripts/scr_relic_on_turn_end/scr_relic_on_turn_end.yy",},},
     {"id":{"name":"scr_relic_on_turn_start","path":"scripts/scr_relic_on_turn_start/scr_relic_on_turn_start.yy",},},
     {"id":{"name":"scr_show_card_reward","path":"scripts/scr_show_card_reward/scr_show_card_reward.yy",},},
+    {"id":{"name":"treasure_get_card","path":"scripts/treasure_get_card/treasure_get_card.yy",},},
     {"id":{"name":"snd_attack","path":"sounds/snd_attack/snd_attack.yy",},},
     {"id":{"name":"snd_background","path":"sounds/snd_background/snd_background.yy",},},
     {"id":{"name":"snd_main_menu","path":"sounds/snd_main_menu/snd_main_menu.yy",},},
