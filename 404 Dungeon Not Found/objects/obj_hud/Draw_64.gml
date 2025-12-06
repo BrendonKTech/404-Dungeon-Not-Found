@@ -36,8 +36,8 @@ for (var i = 0; i < 3; i++)
 
 // === RELICS ===
 var start_x = 50;
-var cy = 135;
-var spacing = 60;
+var cy = 35;
+var spacing = 50;
 
 // Position from right side inward
 var rx = room_width - 70;

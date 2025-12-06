@@ -90,3 +90,10 @@ show_defeat_overlay = false;
 overlay_alpha = 1;  
 
 refresh_cards = false
+
+
+if (instance_exists(obj_relic_controller)) {
+    with (obj_relic_controller) {
+        event_user(7); // Combat start relic effects
+    }
+}

@@ -10,6 +10,12 @@ if (global.turn == "enemy") {
         dmg_text.vy = -1;   // moves upward
         dmg_text.life_time = 60;
     }
+	
+	if (instance_exists(obj_relic_controller)) {
+		with (obj_relic_controller) {
+			event_user(4); // Start-of-turn relic effects
+		}
+	}
 
     
     // Increment player MP
@@ -27,7 +33,7 @@ if (global.turn == "enemy") {
 if (not_enough_mp_timer > 0) {
     not_enough_mp_timer -= 1;
     if (not_enough_mp_timer <= 0) {
-        not_enough_mp_timer = 0; // optional
+        not_enough_mp_timer = 0;
     }
 }
 
