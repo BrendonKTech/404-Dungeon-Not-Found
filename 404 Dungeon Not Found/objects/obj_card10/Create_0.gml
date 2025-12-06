@@ -6,5 +6,4 @@ event_inherited()
 card_cost = 1;
 card_type = "attack";
 card_target = "enemy";
-card_damage = 8;
-extra_value = 5; // amount added every time it is used
+card_damage = global.extra_current_damage;// amount added every time it is used

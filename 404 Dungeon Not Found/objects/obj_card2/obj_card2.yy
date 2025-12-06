@@ -7,14 +7,16 @@
   ],
   "managed":true,
   "name":"obj_card2",
-  "overriddenProperties":[],
+  "overriddenProperties":[
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_cardParent2","path":"objects/obj_cardParent2/obj_cardParent2.yy",},"propertyId":{"name":"is_block_card","path":"objects/obj_cardParent2/obj_cardParent2.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"True",},
+  ],
   "parent":{
     "name":"Cards",
     "path":"folders/Objects/Cards.yy",
   },
   "parentObjectId":{
-    "name":"obj_cardParent",
-    "path":"objects/obj_cardParent/obj_cardParent.yy",
+    "name":"obj_cardParent2",
+    "path":"objects/obj_cardParent2/obj_cardParent2.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,

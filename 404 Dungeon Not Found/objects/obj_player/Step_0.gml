@@ -27,4 +27,12 @@ if (is_attacking) {
     }
 }
 
+if (global.was_hit = true)
+{
+	global.was_hit = false
+	sprite_index = spr_player1_hit
+	image_index = 0
+	image_speed = 0.85
+}
+
 
