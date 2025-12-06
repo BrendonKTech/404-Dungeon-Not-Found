@@ -29,3 +29,5 @@ draw_pile = ds_list_create();
 hand = [];
 player_deck = [];
 player_discard = [];
+
+image_speed = 0.5
