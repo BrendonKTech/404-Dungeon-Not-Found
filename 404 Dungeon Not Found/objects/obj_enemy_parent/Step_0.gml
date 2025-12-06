@@ -13,7 +13,9 @@ if (global.turn == "enemy") {
             // Apply Vulnerable / Weak effects on player if desired
             if (weak > 0) dmg = dmg * 0.75; 
             
-            global.player.hp -= dmg;
+            var damage_after_block = max(dmg - obj_player.block, 0);
+			global.player.hp -= damage_after_block;
+
             
             var dmg_text = instance_create_layer(global.player.x, global.player.y-150, "Instances", obj_damage_number);
             dmg_text.text = string(dmg);
@@ -26,7 +28,7 @@ if (global.turn == "enemy") {
         }
         // Alternate effect turn
         else {
-            // Example: apply Weak or Vulnerable to player
+            // apply Weak or Vulnerable to player
             global.player.weak += 1; 
             global.player.vulnerable += 1;
         }
