@@ -1,4 +1,4 @@
-if (node_state == 1) {
+if (node_state == 1) || (node_state == 3) || (node_state == 4) || (node_state == 5) || (node_state == 6) || (node_state == 7){
     // Player clicked this unlocked node
     node_state = 2; // mark as cleared
 

@@ -2,10 +2,10 @@
 draw_set_color(c_white);
 
 // loop through node connections
-for (var i = 0; i < array_length(map_nodes)-1; i++)
+for (var i = 0; i < array_length(global.map_nodes)-1; i++)
 {
-    var n1 = map_nodes[i];
-    var n2 = map_nodes[i+1];
+    var n1 = global.map_nodes[i];
+    var n2 = global.map_nodes[i+1];
 
     // SAFETY FIX — skip missing nodes
     if (!instance_exists(n1)) continue;
