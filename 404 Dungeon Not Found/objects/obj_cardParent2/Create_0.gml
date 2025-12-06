@@ -9,4 +9,3 @@ hits        = 1;        // multi-hit attacks
 
 hovered     = false;
 lift_amount = -30;
-sprite_index = obj_card1.sprite_index;
