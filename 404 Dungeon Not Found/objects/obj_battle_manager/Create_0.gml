@@ -34,12 +34,6 @@ for (var i = 0; i < enemy_count; i++) {
     array_push(enemies, enemy_inst);
 }
 
-
-// Spawn NPC (from merged branch)
-var inst2 = instance_create_layer(1408, 600, "Instances", obj_npc);
-inst2.image_xscale = -1.25;
-inst2.image_yscale = 1.25;
-
 // Spawn initial cards
 
 

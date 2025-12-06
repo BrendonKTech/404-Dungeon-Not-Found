@@ -5,11 +5,6 @@ draw_sprite_stretched(spr_topbar, 0, 0, 0, room_width, 800);
 var pad = 20;
 var y_mid = 50;
 
-// Starting X positions
-var pad     = 20;
-var y_mid   = 50;
-
-
 // PLAYER NAME
 
 draw_set_font(Font1);
@@ -25,8 +20,6 @@ xx += 180;
 draw_sprite(spr_heart, 0, xx, y_mid - 20);
 draw_text(xx + 80, y_mid - 10, string(obj_player.hp) + " / " + string(obj_player.max_hp));
 xx += 160;
-
-
 
 // GOLD
 draw_sprite(spr_gold, 0, xx, y_mid - 20);
@@ -61,8 +54,8 @@ rx -= 90;
 
 
 // MAP
-draw_sprite(spr_map_icon, 0, rx, y_mid - 20);
-rx -= 90;
+//draw_sprite(spr_map_icon, 0, rx, y_mid - 20);
+//rx -= 90;
 
 
 // MAP OVERLAY
@@ -89,8 +82,8 @@ if (show_map_overlay) {
 	rx -= 90;
 
 	// MAP
-	draw_sprite(spr_map_icon, 0, rx, y_mid - 20);
-	rx -= 90;
+	//draw_sprite(spr_map_icon, 0, rx, y_mid - 20);
+	//rx -= 90;
 }
 
 // === MAP OVERLAY ===
