@@ -10,14 +10,13 @@ weak      = 0;       // number of turns weak is active
 vulnerable= 0;       // number of turns vulnerable is active
 
 // Animation placeholders
-sprite_idle   = spr_enemy1_idle;  // replace per enemy
+/*sprite_idle   = spr_enemy1_idle;  // replace per enemy
 sprite_attack = spr_enemy1_attack; // optional
 sprite_hit    = spr_enemy1_hit;
 sprite_die    = spr_enemy1_die;
-
+*/
 // Attack turn setup
 turn_counter = 0; // can alternate attack types
 
-// Example sound lines (commented out)
 // snd_attack = snd_enemy_attack; 
 // snd_hit    = snd_enemy_hit;

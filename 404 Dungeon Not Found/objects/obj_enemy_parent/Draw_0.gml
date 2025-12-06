@@ -1,4 +1,4 @@
-if (sprite_index == sprite_idle) {
+/*if (sprite_index == sprite_idle) {
     draw_sprite(sprite_idle,0,x,y);
 }
 

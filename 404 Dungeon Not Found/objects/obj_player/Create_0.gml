@@ -7,8 +7,8 @@ mp_next_turn = 0;
 
 block        = 0;
 block_end_turn = 0;
-strength     = 0;
-strength_temp = 0;
+//strength     = 0;
+//strength_temp = 0;
 
 vulnerable   = 0;
 weak         = 0;
@@ -25,7 +25,7 @@ start_y       = y;
 attack_offset = 100;
 
 potions = [];
+
 hand = [];
-hand[0] = {name: "Strike", damage: 5};
-hand[1] = {name: "Defend", block: 5};
-hand[2] = {name: "Strike", damage: 5};
+player_deck = [];
+player_discard = [];

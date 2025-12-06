@@ -1,89 +1,79 @@
+// Battle Manager Create
+
 global.turn = "player";
-
+player = noone;          // No actual player instance needed
 battle_phase = "player_turn";
-player = noone;
-enemy = noone;
-
+enemies = [];            // array to store all enemies
 current_card = noone;
 
-player_deck = [];
-player_hand = [];
-player_discard = [];
+// Player deck/hand setup as global arrays
+global.player_deck = [];
+global.player_hand = [];
+global.player_discard = [];
+global.max_hand_size = 5;
 
-max_hand_size = 5;
+// Spawn battle start text
+var start_text = instance_create_layer(room_width / 2, room_height / 2, "Instances", obj_battleStartText);
+start_text.color = c_yellow;
+start_text.vy = -1;
+start_text.life_time = 60;
 
+// Spawn enemies
+var enemy_count = 3; // number of regular enemies
+var enemy_list = [obj_enemy1,obj_enemy2,obj_enemy3,obj_enemy4,obj_enemy5,obj_enemy6,obj_enemy7,obj_enemy8];
 
- var start_text = instance_create_layer(room_width / 2, room_height / 2, "Instances", obj_battleStartText);
-       start_text.color = c_yellow;
-        start_text.vy = -1;   // moves upward
-        start_text.life_time = 60;
+for (var i = 0; i < enemy_count; i++) {
+    var enemy_type = enemy_list[irandom(array_length(enemy_list) - 1)];
+    var x_pos = 800 + i * 300;
+    var y_pos = 300 + irandom_range(-50,50);
 
-/*var enemy_index = irandom_range(1, 5);
-var enemy_sprite_name = "spr_enemy" + string(enemy_index);
-var enemy_asset = asset_get_index(enemy_sprite_name);
+    var enemy_inst = instance_create_layer(x_pos, y_pos, "Instances", enemy_type);
+    enemy_inst.image_xscale = -2;
+    enemy_inst.image_yscale = 2;
 
-var inst6 = instance_create_layer(1408, 600, "Instances", obj_tempenemy1);
-inst6.image_xscale = -2.25;
-inst6.image_yscale = 2.25;
-inst6.sprite_index = enemy_asset;*/
+    array_push(enemies, enemy_inst);
+}
 
-
-var inst2 = instance_create_layer(1408, 300, "Instances", obj_npc);
-inst2.image_xscale = -1.25;
-inst2.image_yscale = 1.25;
+// Spawn initial cards
 var inst3 = instance_create_layer(640, 960, "Instances", obj_card1);
-inst3.image_xscale = 0.3;
-inst3.image_yscale = 0.3;
+inst3.image_xscale = 0.3; inst3.image_yscale = 0.3;
 var inst4 = instance_create_layer(944, 960, "Instances", obj_card1);
-inst3.image_xscale = 0.3;
-inst3.image_yscale = 0.3;
+inst4.image_xscale = 0.3; inst4.image_yscale = 0.3;
 var inst5 = instance_create_layer(1248, 960, "Instances", obj_card2);
-inst3.image_xscale = 0.3;
-inst3.image_yscale = 0.3;
+inst5.image_xscale = 0.3; inst5.image_yscale = 0.3;
 
-function draw_card(x, y)
-{
-    // If deck empty, reshuffle discard
-    if (array_length(player_deck) == 0)
-    {
-        if (array_length(player_discard) > 0)
-        {
-            player_deck = array_duplicate(player_discard);
-            player_discard = [];
+// Card draw function
+function draw_card(x, y) {
+    if (array_length(global.player_deck) == 0) {
+        if (array_length(global.player_discard) > 0) {
+            global.player_deck = array_duplicate(global.player_discard);
+            global.player_discard = [];
 
-            // Shuffle
-            for (var i = array_length(player_deck) - 1; i > 0; i--)
-            {
+            // Shuffle deck
+            for (var i = array_length(global.player_deck)-1; i > 0; i--) {
                 var j = irandom(i);
-                var temp = player_deck[i];
-                player_deck[i] = player_deck[j];
-                player_deck[j] = temp;
+                var temp = global.player_deck[i];
+                global.player_deck[i] = global.player_deck[j];
+                global.player_deck[j] = temp;
             }
-        }
-        else
-        {
-            // Completely safe: no cards anywhere, do nothing
+        } else {
             return;
         }
     }
 
-    // Draw card from top
-    var card_sprite = player_deck[0];
-    array_delete(player_deck, 0, 1);
+    var card_sprite = global.player_deck[0];
+    array_delete(global.player_deck, 0, 1);
 
-    // Create card instance
-    var card = instance_create_layer(x, y, "Instances", obj_cardParent);
+    var card = instance_create_layer(x, y, "Instances", obj_cardParent2);
     card.sprite_index = card_sprite;
 
-    // Add to hand list
-    array_push(player_hand, card);
+    array_push(global.player_hand, card);
 }
 
-
+// Misc variables
 not_enough_mp_text = "";
 not_enough_mp_timer = 0;
 show_victory_overlay = false;
 show_defeat_overlay = false;
-overlay_alpha = 1;  
-
-refresh_cards = false
+overlay_alpha = 1;
+refresh_cards = false;
