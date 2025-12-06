@@ -11,7 +11,10 @@
     "name":"Relics",
     "path":"folders/Objects/Relics.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_relic_controller",
+    "path":"objects/obj_relic_controller/obj_relic_controller.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,

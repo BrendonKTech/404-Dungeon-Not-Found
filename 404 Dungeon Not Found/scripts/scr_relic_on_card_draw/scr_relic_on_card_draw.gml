@@ -1,7 +1,7 @@
 function scr_relic_on_card_draw(_card){
 	// 2. Corrupted RAM Stick: if drawing Status/Curse gain 1 Block
     if (array_contains(global.relics, "Corrupted RAM Stick")) {
-        if (_card.is_status || _card.is_curse) {
+        if (_card.is_status) {
             obj_player.block += 1;
         }
     }
