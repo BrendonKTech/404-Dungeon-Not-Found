@@ -240,6 +240,7 @@
     {"name":"spr_enemy4_attack","order":1,"path":"sprites/spr_enemy4_attack/spr_enemy4_attack.yy",},
     {"name":"spr_enemy4_die","order":3,"path":"sprites/spr_enemy4_die/spr_enemy4_die.yy",},
     {"name":"spr_enemy4_hurt","order":2,"path":"sprites/spr_enemy4_hurt/spr_enemy4_hurt.yy",},
+    {"name":"spr_enemy5_hurt","order":2,"path":"sprites/spr_enemy5_hurt/spr_enemy5_hurt.yy",},
     {"name":"spr_enemy5_idle","order":1,"path":"sprites/spr_enemy5_idle/spr_enemy5_idle.yy",},
     {"name":"spr_enemy6_attack","order":1,"path":"sprites/spr_enemy6_attack/spr_enemy6_attack.yy",},
     {"name":"spr_enemy6_hit","order":2,"path":"sprites/spr_enemy6_hit/spr_enemy6_hit.yy",},

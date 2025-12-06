@@ -6,7 +6,10 @@
   ],
   "managed":true,
   "name":"obj_enemy10",
-  "overriddenProperties":[],
+  "overriddenProperties":[
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_enemy_parent","path":"objects/obj_enemy_parent/obj_enemy_parent.yy",},"propertyId":{"name":"damage_sprite","path":"objects/obj_enemy_parent/obj_enemy_parent.yy",},"resource":{"name":"spr_enemy10_hit","path":"sprites/spr_enemy10_hit/spr_enemy10_hit.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"spr_enemy10_hit",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_enemy_parent","path":"objects/obj_enemy_parent/obj_enemy_parent.yy",},"propertyId":{"name":"idle_sprite","path":"objects/obj_enemy_parent/obj_enemy_parent.yy",},"resource":{"name":"spr_enemy10_idle","path":"sprites/spr_enemy10_idle/spr_enemy10_idle.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"spr_enemy10_idle",},
+  ],
   "parent":{
     "name":"Fighters",
     "path":"folders/Objects/Fighters.yy",

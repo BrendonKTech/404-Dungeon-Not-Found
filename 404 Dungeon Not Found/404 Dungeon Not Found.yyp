@@ -287,6 +287,7 @@
     {"id":{"name":"spr_enemy4_die","path":"sprites/spr_enemy4_die/spr_enemy4_die.yy",},},
     {"id":{"name":"spr_enemy4_hurt","path":"sprites/spr_enemy4_hurt/spr_enemy4_hurt.yy",},},
     {"id":{"name":"spr_enemy4_idle","path":"sprites/spr_enemy4_idle/spr_enemy4_idle.yy",},},
+    {"id":{"name":"spr_enemy5_hurt","path":"sprites/spr_enemy5_hurt/spr_enemy5_hurt.yy",},},
     {"id":{"name":"spr_enemy5_idle","path":"sprites/spr_enemy5_idle/spr_enemy5_idle.yy",},},
     {"id":{"name":"spr_enemy5","path":"sprites/spr_enemy5/spr_enemy5.yy",},},
     {"id":{"name":"spr_enemy6_attack","path":"sprites/spr_enemy6_attack/spr_enemy6_attack.yy",},},

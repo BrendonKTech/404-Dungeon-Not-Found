@@ -53,3 +53,11 @@ if (!is_alive) {
         instance_destroy();
     }
 }
+
+if (global.enemy_hit = true)
+{
+	global.enemy_hit = false
+	sprite_index = damage_sprite
+	image_index = 0
+	image_speed = 0.85
+}
