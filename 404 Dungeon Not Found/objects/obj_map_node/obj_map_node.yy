@@ -30,13 +30,14 @@
   "properties":[
     {"$GMObjectProperty":"v2","%Name":"node_index","filters":[],"listItems":[],"multiselect":false,"name":"node_index","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":0,},
     {"$GMObjectProperty":"v2","%Name":"room_to_go","filters":[],"listItems":[],"multiselect":false,"name":"room_to_go","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"6","varType":0,},
+    {"$GMObjectProperty":"v2","%Name":"variable_name","filters":[],"listItems":[],"multiselect":false,"name":"variable_name","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":0,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_node",
-    "path":"sprites/spr_node/spr_node.yy",
+    "name":"spr_node_cleared",
+    "path":"sprites/spr_node_cleared/spr_node_cleared.yy",
   },
   "spriteMaskId":null,
   "visible":true,
