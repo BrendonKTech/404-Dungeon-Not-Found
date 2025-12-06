@@ -20,7 +20,7 @@ start_text.life_time = 60;
 
 // Spawn enemies
 var enemy_count = 1; // number of regular enemies
-var enemy_list = [obj_enemy5, obj_enemy6, obj_enemy7, obj_enemy8, obj_enemy9, obj_enemy10];
+var enemy_list = [obj_enemy5, obj_enemy6, obj_enemy7, obj_enemy8, obj_enemy9];
 
 for (var i = 0; i < enemy_count; i++) {
     var enemy_type = enemy_list[irandom(array_length(enemy_list) - 1)];
