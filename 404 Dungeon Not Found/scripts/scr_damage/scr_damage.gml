@@ -5,6 +5,8 @@ function scr_damage(_t, _amt) {
     if (variable_instance_exists(_t, "vulnerable")) {
         amt *= (1 + (_t.vulnerable * 0.5));
     }
+	// sound attack
+	audio_play_sound(snd_attack, 1, false);
 
     // Apply damage to target
     if (instance_exists(_t) && variable_instance_exists(_t, "hp")) {
