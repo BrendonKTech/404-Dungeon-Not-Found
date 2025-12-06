@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"Script36",
+  "%Name":"get_random_card",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"Script36",
+  "name":"get_random_card",
   "parent":{
     "name":"Scripts",
     "path":"folders/Scripts.yy",

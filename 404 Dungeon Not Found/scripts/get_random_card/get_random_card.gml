@@ -20,5 +20,64 @@ if (array_length(unlocked_cards) == 0) {
 // Pick a random card from the unlocked ones
 var card_index = unlocked_cards[irandom(array_length(unlocked_cards) - 1)];
 
-return card_index;
+if card_index == 0
+{
+	return obj_card1
+}
+if card_index == 1
+{
+	return obj_card2
+}
+if card_index == 2
+{
+	return obj_card3
+}
+if card_index == 3
+{
+	return obj_card4
+}
+if card_index == 4
+{
+	return obj_card5
+}
+if card_index == 5
+{
+	return obj_card6
+}
+if card_index == 6
+{
+	return obj_card7
+}
+if card_index == 7
+{
+	return obj_card8
+}
+if card_index == 8
+{
+	return obj_card9
+}
+if card_index == 9
+{
+	return obj_card10
+}
+if card_index == 10
+{
+	return obj_card11
+}
+if card_index == 11
+{
+	return obj_card12
+}
+if card_index == 12
+{
+	return obj_card13
+}
+if card_index == 13
+{
+	return obj_card14
+}
+
+	
+	
+	
 }
