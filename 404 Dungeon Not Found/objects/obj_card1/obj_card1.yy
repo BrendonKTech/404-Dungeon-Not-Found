@@ -12,8 +12,8 @@
     "path":"folders/Objects/Cards.yy",
   },
   "parentObjectId":{
-    "name":"obj_cardParent2",
-    "path":"objects/obj_cardParent2/obj_cardParent2.yy",
+    "name":"obj_cardParent",
+    "path":"objects/obj_cardParent/obj_cardParent.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
