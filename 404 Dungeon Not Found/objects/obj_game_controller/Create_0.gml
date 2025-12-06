@@ -1,4 +1,4 @@
-global.player_name = "Player";
+global.player_name = "Artie Fishal";
 
 if (!variable_global_exists("relics")) {
     global.relics = [];
