@@ -5,4 +5,4 @@ event_inherited()
 card_cost = 1;
 card_type = "power";
 card_target = "self";
-auto_block = 1;
+block_end_turn = 3;

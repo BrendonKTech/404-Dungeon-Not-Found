@@ -33,14 +33,7 @@ dmg_text.depth = -1000;
 			}
 		if (is_block_card)
 		{
-			if (is_auto_block)
-			{
-				obj_player.auto_block += auto_block
-			}
-			else
-			{
-				obj_player.block += block
-			}
+			obj_player.block += block
 		}
 		
         obj_player.mp -= card_cost;
