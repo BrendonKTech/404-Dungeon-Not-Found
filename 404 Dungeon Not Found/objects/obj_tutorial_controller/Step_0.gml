@@ -1,8 +1,6 @@
 if (tutorial_active) {
 
-    //--------------------------------------
     // Initialize new step
-    //--------------------------------------
     if (tutorial_step != prev_step) {
         prev_step = tutorial_step;
         char_index = 0;
@@ -61,9 +59,7 @@ if (tutorial_active) {
         }
     }
 
-    //--------------------------------------
     // Typewriter effect
-    //--------------------------------------
     if (char_index < string_length(dialogue_text)) {
         letter_timer++;
         if (letter_timer >= letter_delay) {
