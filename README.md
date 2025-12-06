@@ -50,11 +50,19 @@ Players build and customize a deck of cards and use them strategically to defeat
 
 ---
 
+## Cheats
+
+- **F1**: Gives player all of the relics.
+- **F2**: Sets player back to max health.
+- **F3**: Add 50 HP to the player.
+- **F4**: Double Current HP
+- **F5**: Set player HP to 1 (hard mode).
+
 ## Credits
 
-- Developed in **GameMaker Studio**  
+- Developed in **GameMaker Studio II**  
 - Inspired by *Slay the Spire*  
-
+- Main Menu theme and Main theme by Manoah Allen
 ---
 
 ## Notes

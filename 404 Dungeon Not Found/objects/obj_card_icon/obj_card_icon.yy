@@ -1,16 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"obj_gamecontroller",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"obj_card_icon",
+  "eventList":[],
   "managed":true,
-  "name":"obj_gamecontroller",
+  "name":"obj_card_icon",
   "overriddenProperties":[],
   "parent":{
-    "name":"Menu",
-    "path":"folders/Objects/Menu.yy",
+    "name":"Other",
+    "path":"folders/Objects/Other.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -30,7 +27,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_cards",
+    "path":"sprites/spr_cards/spr_cards.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
