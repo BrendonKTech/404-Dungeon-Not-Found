@@ -122,6 +122,7 @@
     {"id":{"name":"obj_gpuAccelerator","path":"objects/obj_gpuAccelerator/obj_gpuAccelerator.yy",},},
     {"id":{"name":"obj_hud","path":"objects/obj_hud/obj_hud.yy",},},
     {"id":{"name":"obj_hud1","path":"objects/obj_hud1/obj_hud1.yy",},},
+    {"id":{"name":"obj_main_menu_audio","path":"objects/obj_main_menu_audio/obj_main_menu_audio.yy",},},
     {"id":{"name":"obj_map_controller","path":"objects/obj_map_controller/obj_map_controller.yy",},},
     {"id":{"name":"obj_map_controller2","path":"objects/obj_map_controller2/obj_map_controller2.yy",},},
     {"id":{"name":"obj_map_icon","path":"objects/obj_map_icon/obj_map_icon.yy",},},

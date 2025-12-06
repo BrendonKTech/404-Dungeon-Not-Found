@@ -98,6 +98,7 @@
     {"name":"obj_gpuAccelerator","order":7,"path":"objects/obj_gpuAccelerator/obj_gpuAccelerator.yy",},
     {"name":"obj_hud","order":8,"path":"objects/obj_hud/obj_hud.yy",},
     {"name":"obj_hud1","order":2,"path":"objects/obj_hud1/obj_hud1.yy",},
+    {"name":"obj_main_menu_audio","order":30,"path":"objects/obj_main_menu_audio/obj_main_menu_audio.yy",},
     {"name":"obj_map_controller","order":17,"path":"objects/obj_map_controller/obj_map_controller.yy",},
     {"name":"obj_map_controller2","order":1,"path":"objects/obj_map_controller2/obj_map_controller2.yy",},
     {"name":"obj_map_icon","order":23,"path":"objects/obj_map_icon/obj_map_icon.yy",},
