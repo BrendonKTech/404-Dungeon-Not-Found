@@ -13,3 +13,13 @@ if node_index == 0
 {
 	sprite_index = spr_node_unlocked;
 }
+
+if type == "random"
+{
+	type = get_random_room_type()
+}
+
+if enemy_seed == 99
+{
+	enemy_seed = get_random_enemy_seed()
+}
