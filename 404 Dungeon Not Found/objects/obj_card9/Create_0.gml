@@ -6,5 +6,5 @@ event_inherited()
 card_cost = 0;
 card_type = "skill";
 card_target = "self";
-mp_next_turn = 1;
-apply_vulnerable = 2; // on self
+gain_mp = 2;
+vulnerable_amount = 2; // on self

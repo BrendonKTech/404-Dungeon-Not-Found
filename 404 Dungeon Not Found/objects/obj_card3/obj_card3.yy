@@ -8,6 +8,7 @@
   "name":"obj_card3",
   "overriddenProperties":[
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_cardParent2","path":"objects/obj_cardParent2/obj_cardParent2.yy",},"propertyId":{"name":"is_damage_card","path":"objects/obj_cardParent2/obj_cardParent2.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"True",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_cardParent2","path":"objects/obj_cardParent2/obj_cardParent2.yy",},"propertyId":{"name":"is_vulnerable_card","path":"objects/obj_cardParent2/obj_cardParent2.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"True",},
   ],
   "parent":{
     "name":"Cards",

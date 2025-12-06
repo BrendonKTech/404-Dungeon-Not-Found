@@ -5,4 +5,4 @@ event_inherited()
 card_cost = 0;
 card_type = "skill";
 card_target = "self";
-gain_mp = 2;
+gain_mp = 1;
