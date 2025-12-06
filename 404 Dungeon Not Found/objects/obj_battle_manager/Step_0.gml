@@ -4,18 +4,33 @@ if (global.turn == "enemy") {
         var e = enemies[i];
         if (instance_exists(e)) {
             // Apply damage to player
-			e.vulnerable = 0;
-			var damage_final = max(e.damage - obj_player.block - obj_player.auto_block + obj_player.vulnerable, 0);
-            global.hp -= damage_final;
+			e.vulnerable = false;
+			if (obj_player.vulnerable)
+			{
+				var damage_final = max(ceil(e.damage * 1.5) - obj_player.block - obj_player.auto_block, 0);
+				global.hp -= damage_final;
 			obj_player.block = 0;
 			global.was_hit = true;
-
-            // Floating damage numbers
+			 // Floating damage numbers
             var dmg_text = instance_create_layer(global.player.x, global.player.y - 180, "Instances", obj_damage_number);
             dmg_text.text = string(damage_final);
             dmg_text.color = c_red;
             dmg_text.vy = -1;
             dmg_text.life_time = 60;
+			}
+			else
+			{
+			var damage_final = max(e.damage - obj_player.block - obj_player.auto_block, 0);
+				global.hp -= damage_final;
+			obj_player.block = 0;
+			global.was_hit = true;
+			 // Floating damage numbers
+            var dmg_text = instance_create_layer(global.player.x, global.player.y - 180, "Instances", obj_damage_number);
+            dmg_text.text = string(damage_final);
+            dmg_text.color = c_red;
+            dmg_text.vy = -1;
+            dmg_text.life_time = 60;
+			}
         }
     }
 
@@ -24,7 +39,7 @@ if (global.turn == "enemy") {
     if (global.player.mp > global.player.max_mp) global.player.mp = global.player.max_mp;
 
     refresh_cards = true;
-	obj_player.vulnerable = 0;
+	obj_player.vulnerable = false;
     global.turn = "player";
 }
 

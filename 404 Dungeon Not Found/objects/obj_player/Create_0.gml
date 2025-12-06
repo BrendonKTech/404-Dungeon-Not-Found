@@ -7,8 +7,10 @@ mp_next_turn = 0;
 
 block        = 0;
 auto_block = 0;
+strength = 0
+vulnerable   = false;
 
-vulnerable   = 0;
+
 weak         = 0;
 global.temp_mp = 0;
 global.player = id;

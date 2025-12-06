@@ -7,7 +7,7 @@ is_elite = false;    // elites can have shield or stronger attacks
 
 // Status effects
 weak      = 0;       // number of turns weak is active
-vulnerable= 0;       // number of turns vulnerable is active
+vulnerable= false;       // number of turns vulnerable is active
 
 // Animation placeholders
 /*sprite_idle   = spr_enemy1_idle;  // replace per enemy
