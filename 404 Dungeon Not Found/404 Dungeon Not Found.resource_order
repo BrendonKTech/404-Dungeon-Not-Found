@@ -108,6 +108,7 @@
     {"name":"obj_merchant","order":2,"path":"objects/obj_merchant/obj_merchant.yy",},
     {"name":"obj_next_tutorial","order":15,"path":"objects/obj_next_tutorial/obj_next_tutorial.yy",},
     {"name":"obj_npc","order":4,"path":"objects/obj_npc/obj_npc.yy",},
+    {"name":"obj_other_room_audio","order":29,"path":"objects/obj_other_room_audio/obj_other_room_audio.yy",},
     {"name":"obj_player","order":13,"path":"objects/obj_player/obj_player.yy",},
     {"name":"obj_potion_energy","order":1,"path":"objects/obj_potion_energy/obj_potion_energy.yy",},
     {"name":"obj_quantumBitDrive","order":11,"path":"objects/obj_quantumBitDrive/obj_quantumBitDrive.yy",},
