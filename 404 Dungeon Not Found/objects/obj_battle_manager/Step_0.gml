@@ -5,14 +5,14 @@ if (global.turn == "enemy") {
         if (instance_exists(e)) {
             // Apply damage to player
 			e.vulnerable = 0;
-			var damage_after_block = max(e.damage - obj_player.block - obj_player.auto_block, 0);
-            global.hp -= damage_after_block;
+			var damage_final = max(e.damage - obj_player.block - obj_player.auto_block + obj_player.vulnerable, 0);
+            global.hp -= damage_final;
 			obj_player.block = 0;
 			global.was_hit = true;
 
             // Floating damage numbers
             var dmg_text = instance_create_layer(global.player.x, global.player.y - 180, "Instances", obj_damage_number);
-            dmg_text.text = string(damage_after_block);
+            dmg_text.text = string(damage_final);
             dmg_text.color = c_red;
             dmg_text.vy = -1;
             dmg_text.life_time = 60;

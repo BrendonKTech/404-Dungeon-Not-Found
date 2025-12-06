@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_add_potion_to_inventory",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_add_potion_to_inventory",
+  "parent":{
+    "name":"Shop",
+    "path":"folders/Scripts/Shop.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

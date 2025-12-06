@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_relic_on_turn_end",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_relic_on_turn_end",
+  "parent":{
+    "name":"Relics",
+    "path":"folders/Scripts/Relics.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
