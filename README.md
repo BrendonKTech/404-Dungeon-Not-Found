@@ -63,9 +63,14 @@ Players build and customize a deck of cards and use them strategically to defeat
 - Developed in **GameMaker Studio II**  
 - Inspired by *Slay the Spire*  
 - Main Menu theme, Main theme,Map theme, and sound effects by Manoah Allen
+
+## Used art
+- https://creativekind.itch.io/nightborne-warrior
+- https://clembod.itch.io/bringer-of-death-free
+- https://monopixelart.itch.io/skeletons-pack
+- https://monopixelart.itch.io/golems-pack
+- https://oco.itch.io/medieval-fantasy-character-pack
+- https://dustdfg.itch.io/pixel-art-hedgehog
+- https://0x72.itch.io/16x16-robot-tileset
+- https://frostwindz.itch.io/pixel-art-skill-animations-warrior
 ---
-
-## Notes
-
-- This is a work in progress.  
-- Settings menu and additional enemies/cards will be added in future updates.
