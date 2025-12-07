@@ -22,22 +22,22 @@ function treasure_get_card() {
     // Add the new card to the inventory
     array_push(global.inventory, chosen);
 
-if chosen == 0
-{
-	return obj_card1
-}
-if chosen == 1
-{
-	return obj_card2
-}
-if chosen == 2
-{
-	return obj_card3
-}
-if chosen == 3
-{
-	return obj_card4
-}
+	//if chosen == 0
+//{
+	//return obj_card1
+//}
+//if chosen == 1
+//{
+//	return obj_card2
+//}
+//if chosen == 2
+//{
+//	return obj_card3
+//
+//if chosen == 3
+//{
+//	return obj_card4
+//}
 if chosen == 4
 {
 	return obj_card5

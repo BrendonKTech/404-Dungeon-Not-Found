@@ -12,7 +12,6 @@ global.player_hand = [];
 global.player_discard = [];
 global.max_hand_size = 5;
 
-
 // Spawn battle start text
 var start_text = instance_create_layer(room_width / 2, room_height / 2, "Instances", obj_battleStartText);
 start_text.color = c_yellow;
