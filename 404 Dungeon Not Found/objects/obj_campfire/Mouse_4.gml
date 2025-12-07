@@ -1,4 +1,4 @@
-global.hp += global.max_hp * 0.3;
+global.hp += global.max_hp(.8)
 global.unlock_index++
 
 // Return to the map
