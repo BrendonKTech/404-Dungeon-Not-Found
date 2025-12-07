@@ -5,6 +5,7 @@ enemy_type = "boss"; // "normal" or "elite" or "boss"
 is_elite = true;
 
 max_hp = 215;
+damage = 18;
 hp = max_hp;
 shield = 0
 

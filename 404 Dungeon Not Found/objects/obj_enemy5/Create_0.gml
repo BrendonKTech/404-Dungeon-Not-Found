@@ -4,7 +4,8 @@ event_inherited()
 enemy_type = "normal"; // "normal" or "elite" or "boss"
 is_elite = false;
 
-max_hp = 46;
+damage = 16;
+max_hp = 128;
 hp = max_hp;
 
 // Status effects

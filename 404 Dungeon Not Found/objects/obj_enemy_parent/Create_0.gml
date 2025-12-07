@@ -1,7 +1,7 @@
 // Basic Stats
 hp       = 99;      // change per enemy
 max_hp   = hp;
-damage   = 20;       // default attack damage
+damage   = 15;       // default attack damage
 shield   = 0;        // temporary shield for elites
 is_elite = false;    // elites can have shield or stronger attacks
 
@@ -23,3 +23,6 @@ turn_counter = 0; // can alternate attack types
 
 is_alive = true;
 fade_speed = 0.05;
+
+block = 0;
+strength = false;

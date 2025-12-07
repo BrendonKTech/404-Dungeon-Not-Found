@@ -16,8 +16,8 @@ if (not_enough_mp_timer > 0) {
 // --- MP Gauge Parameters ---
 var bar_width = 200;      // width of the full bar
 var bar_height = 20;      // height of the bar
-var bar_x = 50;           // left position
-var bar_y = room_height - 70; // bottom of the screen
+var bar_x = room_width /2 - 100;           // left position
+var bar_y = room_height - 300; // bottom of the screen
 var padding = 2;          // inner padding
 
 // --- Draw bar background ---
@@ -73,4 +73,3 @@ draw_set_valign(fa_middle);
 draw_set_font(Font1);
 draw_text(room_width/2, room_height/2, "Defeat...");
 }
-

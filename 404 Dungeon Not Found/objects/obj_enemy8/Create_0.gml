@@ -5,6 +5,7 @@ enemy_type = "normal"; // "normal" or "elite" or "boss"
 is_elite = false;
 
 max_hp = 52;
+damage = 13;
 hp = max_hp;
 
 // Status effects
