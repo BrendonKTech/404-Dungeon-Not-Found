@@ -165,4 +165,4 @@ for (var i = 0; i < array_length(relics_for_sale); i++) {
 draw_set_color(c_red);
 draw_rectangle(leave_x-50, leave_y, leave_x+leave_w, leave_y+leave_h, false);
 draw_set_color(c_white);
-draw_text(leave_x+10, leave_y+10, "Tab to Leave");
+draw_text(leave_x+30, leave_y+30, "Tab to Leave");
