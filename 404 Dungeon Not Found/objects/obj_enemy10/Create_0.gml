@@ -1,4 +1,4 @@
-event_inherited()
+event_inherited();
 
 //enemy_name = ""; // Change per enemy
 enemy_type = "elite"; // "normal" or "elite" or "boss"
@@ -10,9 +10,9 @@ damage = 18;
 shield = 5;
 
 // Status effects
-status_weak = 0;        // Weak: take 50% more damage
-status_vulnerable = 0;  // Vulnerable: take more damage
-status_shield = 0;      // Blocks damage for this turn
+weak = 0;        // Weak: take 50% more damage
+vulnerable = 0;  // Vulnerable: take more damage
+shield = 0;      // Blocks damage for this turn
 
 // Animations
 spr_idle   = spr_enemy10_idle;

@@ -3,12 +3,10 @@ if (instance_number(obj_relic_controller) > 1) {
     exit;
 }
 
-global.relics = [];
-
-global.temp_mp = 0;
-global.strength = 0;
-global.apply_weak_on_attack = false;
-global.apply_vulnerable_on_attack = false;
+for (var i = 0; i < array_length(global.relics); i++) {
+    var relic_name = global.relics[i];
+    scr_relic_apply(relic_name);
+}
 
 
 /*

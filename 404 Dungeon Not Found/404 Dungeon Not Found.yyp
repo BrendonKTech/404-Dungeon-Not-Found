@@ -59,7 +59,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.14.1.210",
+    "IDEVersion":"2024.14.0.207",
   },
   "name":"404 Dungeon Not Found",
   "resources":[
@@ -210,6 +210,7 @@
     {"id":{"name":"scr_play_music","path":"scripts/scr_play_music/scr_play_music.yy",},},
     {"id":{"name":"scr_point_in_circle","path":"scripts/scr_point_in_circle/scr_point_in_circle.yy",},},
     {"id":{"name":"scr_relic_add","path":"scripts/scr_relic_add/scr_relic_add.yy",},},
+    {"id":{"name":"scr_relic_apply","path":"scripts/scr_relic_apply/scr_relic_apply.yy",},},
     {"id":{"name":"scr_relic_on_card_draw","path":"scripts/scr_relic_on_card_draw/scr_relic_on_card_draw.yy",},},
     {"id":{"name":"scr_relic_on_card_play","path":"scripts/scr_relic_on_card_play/scr_relic_on_card_play.yy",},},
     {"id":{"name":"scr_relic_on_damage","path":"scripts/scr_relic_on_damage/scr_relic_on_damage.yy",},},
