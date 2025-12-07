@@ -1,4 +1,4 @@
-if (hp <= 0 && is_alive) {
+if (global.hp <= 0 && is_alive) {
     is_alive = false;
     // In tutorial, just destroy player or reset tutorial
     show_debug_message("Tutorial player defeated!");

@@ -40,8 +40,10 @@ var dmg_text = instance_create_layer(p.x, p.y - 180, "Popup", obj_damage_number)
     }
 
     // Increment player MP
-    obj_player.mp += 3;
-    if (obj_player.mp > obj_player.max_mp) obj_player.mp = obj_player.max_mp;
+	if !obj_player.mp > 3
+	{
+    obj_player.mp = 3;
+	}
 
     refresh_cards = true;
 	obj_player.vulnerable = false;

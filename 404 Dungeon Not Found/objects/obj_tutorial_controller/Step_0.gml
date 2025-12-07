@@ -38,6 +38,7 @@ if (tutorial_active) {
             // Step 4: must click End Turn
             case 4:
                 dialogue_text = "Try hitting the 'End Turn' button now.";
+				waiting_for_end_turn = true;
                 audio_play_sound(snd_tutorial5, 1, false);
 				break;
 

@@ -14,23 +14,32 @@ if (not_enough_mp_timer > 0) {
 }
 
 // --- MP Gauge Parameters ---
-var bar_width = 200;      // width of the full bar
-var bar_height = 20;      // height of the bar
-var bar_x = room_width /2 - 100;           // left position
-var bar_y = room_height - 300; // bottom of the screen
-var padding = 2;          // inner padding
+var bar_width  = 200;
+var bar_height = 20;
+var bar_x      = room_width / 2 - 100;
+var bar_y      = room_height - 300;
+var padding    = 2;
 
 // --- Draw bar background ---
 draw_set_color(c_black);
 draw_rectangle(bar_x, bar_y, bar_x + bar_width, bar_y + bar_height, false);
 
-// --- Draw filled MP ---
-var mp_ratio = obj_player.mp / obj_player.max_mp;
-draw_set_color(c_blue); // color of MP bar
+// --- Clamp MP ratio so filled width never exceeds the bar ---
+var mp_ratio_raw = obj_player.mp / obj_player.max_mp;
+var mp_ratio_clamped = clamp(mp_ratio_raw, 0, 1);
+
+// --- Choose bar color ---
+if (obj_player.mp > obj_player.max_mp) {
+    draw_set_color(make_color_rgb(180, 0, 255)); // purple
+} else {
+    draw_set_color(c_blue);
+}
+
+// --- Draw filled portion ---
 draw_rectangle(
     bar_x + padding,
     bar_y + padding,
-    bar_x + padding + (bar_width - 2*padding) * mp_ratio,
+    bar_x + padding + (bar_width - 2 * padding) * mp_ratio_clamped,
     bar_y + bar_height - padding,
     false
 );
