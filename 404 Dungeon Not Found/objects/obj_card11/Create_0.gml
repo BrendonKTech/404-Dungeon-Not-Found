@@ -3,7 +3,7 @@ and scan a file (draw 1 card).*/
 
 event_inherited()
 
-card_cost = 1;
+card_cost = 3;
 card_type = "skill";
 card_target = "self";
 block = 8;
