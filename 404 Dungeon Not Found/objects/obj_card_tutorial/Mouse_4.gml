@@ -6,6 +6,7 @@ if (tutorial != noone && tutorial.tutorial_active) {
         // Deal damage to tutorial NPC
         if (instance_exists(obj_npc_tutorial)) {
             obj_npc_tutorial.hp -= damage;
+			
         }
 
         // Advance tutorial
@@ -13,5 +14,6 @@ if (tutorial != noone && tutorial.tutorial_active) {
         tutorial.char_index = 0;
         tutorial.display_text = "";
         tutorial.waiting_for_input = true;
+		instance_destroy()
     }
 }

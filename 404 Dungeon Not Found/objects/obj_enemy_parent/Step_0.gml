@@ -62,7 +62,7 @@ if (is_boss)
         alarm[9] = 60;
 }
     with (obj_battle_manager)
-        alarm[1] = 60;
+        alarm[0] = 60;
 }
 
 if (!is_alive)

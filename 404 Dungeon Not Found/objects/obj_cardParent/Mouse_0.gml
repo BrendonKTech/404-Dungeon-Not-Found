@@ -1,4 +1,4 @@
-if (global.turn == "player" && obj_player.mp >= card_cost) {
+if (global.turn == "player" && obj_player_tutorial.mp >= card_cost) {
 
     var tutorial = instance_exists(obj_tutorial_controller) ? instance_find(obj_tutorial_controller, 0) : noone;
 
