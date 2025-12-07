@@ -26,9 +26,13 @@ if (global.turn == "enemy") {
 			global.was_hit = true;
 			 // Floating damage numbers
             var p = obj_player; // shorthand
+<<<<<<< HEAD
 
 			var dmg_text = instance_create_layer(p.x, p.y - 180, "Instances", obj_damage_number);
 
+=======
+			var dmg_text = instance_create_layer(p.x, p.y - 180, "Instances", obj_damage_number);
+>>>>>>> parent of f1fb581 (Merge branch 'main' of https://github.com/BrendonKTech/404-Dungeon-Not-Found)
             dmg_text.text = string(damage_final);
             dmg_text.color = c_red;
             dmg_text.vy = -1;

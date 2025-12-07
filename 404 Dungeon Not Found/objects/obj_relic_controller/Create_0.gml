@@ -48,7 +48,7 @@ if (array_contains(global.relics, obj_firewallChipset) && !global.first_unblocke
 }*/
 
 // At the start of combat or during the player's turn
-/*if (array_contains(global.relics, obj_glitchedBIOSbattery) && !global.used_glitched_bios) {
+if (array_contains(global.relics, obj_glitchedBIOSbattery) && !global.used_glitched_bios) {
     if (obj_player.hp <= (obj_player.max_hp * 0.3)) {
         global.used_glitched_bios = true;
         global.temp_mp += 2;
