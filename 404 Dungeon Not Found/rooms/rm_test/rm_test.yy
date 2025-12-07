@@ -20,6 +20,7 @@
     {"name":"inst_7DCEF566","path":"rooms/rm_test/rm_test.yy",},
     {"name":"inst_12CB2043","path":"rooms/rm_test/rm_test.yy",},
     {"name":"inst_70EBBB64","path":"rooms/rm_test/rm_test.yy",},
+    {"name":"inst_549A3749","path":"rooms/rm_test/rm_test.yy",},
     {"name":"inst_2A836A5","path":"rooms/rm_test/rm_test.yy",},
   ],
   "isDnd":false,
@@ -53,6 +54,7 @@
         {"$GMRInstance":"v4","%Name":"inst_70EBBB64","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_70EBBB64","objectId":{"name":"obj_status_marker_enemy","path":"objects/obj_status_marker_enemy/obj_status_marker_enemy.yy",},"properties":[
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_status_marker_enemy","path":"objects/obj_status_marker_enemy/obj_status_marker_enemy.yy",},"propertyId":{"name":"type","path":"objects/obj_status_marker_enemy/obj_status_marker_enemy.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"vulnerable",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.5,"scaleY":0.5,"x":1472.0,"y":448.0,},
+        {"$GMRInstance":"v4","%Name":"inst_549A3749","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_549A3749","objectId":{"name":"obj_relic_controller","path":"objects/obj_relic_controller/obj_relic_controller.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":160.0,"y":192.0,},
         {"$GMRInstance":"v4","%Name":"inst_2A836A5","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_2A836A5","objectId":{"name":"obj_gamecontroller","path":"objects/obj_gamecontroller/obj_gamecontroller.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":96.0,"y":192.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":30.0,"animationSpeedType":0,"colour":4294967295,"depth":300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":{"name":"spr_background3","path":"sprites/spr_background3/spr_background3.yy",},"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
