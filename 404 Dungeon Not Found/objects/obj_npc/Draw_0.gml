@@ -7,9 +7,9 @@ var bar_h = 8;
 var hp_percent = hp / max_hp;
 
 // Move bar 300px lower than sprite
-var bar_y_top = y - sprite_height + 365;
+var bar_y_top = y - sprite_height + 250;
 var bar_y_bottom = bar_y_top + bar_h;
-var text_y = bar_y_top - 12;  // text slightly above the bar
+var text_y = bar_y_top - 20;  // text slightly above the bar
 
 // Draw background
 draw_set_font(Font1);

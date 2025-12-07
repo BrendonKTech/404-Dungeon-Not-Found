@@ -8,6 +8,12 @@ if (obj_tutorial_controller != noone && obj_tutorial_controller.tutorial_active)
             obj_npc.hp -= damage;
 			obj_player_tutorial.mp -= card_cost
 			audio_play_sound(snd_robot_hit, -5, false)
+			var dmg_text = instance_create_layer(obj_npc.x, obj_npc.y - 50, "Popup", obj_damage_number);
+		dmg_text.depth = -1000;
+        dmg_text.text = damage
+        dmg_text.color = c_red;
+        dmg_text.vy = -1;
+        dmg_text.life_time = 60;
 			
         }
 

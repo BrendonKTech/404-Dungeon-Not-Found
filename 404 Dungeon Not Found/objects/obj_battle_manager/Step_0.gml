@@ -40,9 +40,13 @@ var dmg_text = instance_create_layer(p.x, p.y - 180, "Popup", obj_damage_number)
     }
 
     // Increment player MP
-	if !obj_player.mp > 3
+	if obj_player.mp > 3
 	{
-    obj_player.mp = 3;
+
+	}
+	else
+	{
+		obj_player.mp = 3;
 	}
 
     refresh_cards = true;

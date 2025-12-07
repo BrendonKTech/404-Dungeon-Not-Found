@@ -10,7 +10,7 @@
   "compression":0,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":4.4159865,
+  "duration":3.6029024,
   "exportDir":"",
   "name":"snd_tutorial4",
   "parent":{
