@@ -173,6 +173,7 @@
     {"name":"scr_play_card","order":5,"path":"scripts/scr_play_card/scr_play_card.yy",},
     {"name":"scr_play_music","order":5,"path":"scripts/scr_play_music/scr_play_music.yy",},
     {"name":"scr_point_in_circle","order":3,"path":"scripts/scr_point_in_circle/scr_point_in_circle.yy",},
+    {"name":"scr_relic_apply","order":9,"path":"scripts/scr_relic_apply/scr_relic_apply.yy",},
     {"name":"scr_relic_on_card_draw","order":1,"path":"scripts/scr_relic_on_card_draw/scr_relic_on_card_draw.yy",},
     {"name":"scr_relic_on_card_play","order":4,"path":"scripts/scr_relic_on_card_play/scr_relic_on_card_play.yy",},
     {"name":"scr_relic_on_damage","order":6,"path":"scripts/scr_relic_on_damage/scr_relic_on_damage.yy",},

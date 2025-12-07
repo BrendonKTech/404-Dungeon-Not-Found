@@ -1,4 +1,4 @@
-event_inherited()
+event_inherited();
 
 //enemy_name = ""; // Change per enemy
 enemy_type = "elite"; // "normal" or "elite" or "boss"

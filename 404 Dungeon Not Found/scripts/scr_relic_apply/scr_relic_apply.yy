@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_relic_apply",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_relic_apply",
+  "parent":{
+    "name":"Relics",
+    "path":"folders/Scripts/Relics.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
