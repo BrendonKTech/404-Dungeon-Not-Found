@@ -38,6 +38,7 @@
     {"$GMObjectProperty":"v2","%Name":"is_vulnerable_card","filters":[],"listItems":[],"multiselect":false,"name":"is_vulnerable_card","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"False","varType":3,},
     {"$GMObjectProperty":"v2","%Name":"is_self_vulnerable_card","filters":[],"listItems":[],"multiselect":false,"name":"is_self_vulnerable_card","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"False","varType":3,},
     {"$GMObjectProperty":"v2","%Name":"is_power_card","filters":[],"listItems":[],"multiselect":false,"name":"is_power_card","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"False","varType":3,},
+    {"$GMObjectProperty":"v2","%Name":"is_double_block_card","filters":[],"listItems":[],"multiselect":false,"name":"is_double_block_card","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"False","varType":3,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

@@ -1,3 +1,5 @@
+if  room = rm_test || room = rm_elite || room = rm_boss
+{
 if (global.turn == "player" && obj_player.mp >= card_cost) {
 
     var target = instance_nearest(mouse_x, mouse_y, obj_enemy_parent);
@@ -86,8 +88,17 @@ dmg_text.depth = -1000;
 		{
 			obj_player.strength += power_amount;
 		}
+		if (is_double_block_card)
+		{
+			obj_player.block += obj_player.block;
+		}
+		if (is_auto_block)
+		{
+			obj_player.auto_block += 1;
+		}
 
         instance_destroy();
     }
+}
 }
 
