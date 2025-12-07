@@ -4,8 +4,8 @@ event_inherited();
 enemy_type = "boss"; // "normal" or "elite" or "boss"
 is_elite = true;
 
-max_hp = 215;
-damage = 18;
+max_hp = 220;
+damage = 20;
 hp = max_hp;
 
 image_xscale = 3;
