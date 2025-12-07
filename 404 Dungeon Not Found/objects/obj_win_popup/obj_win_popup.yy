@@ -1,22 +1,18 @@
 {
   "$GMObject":"",
-  "%Name":"obj_card14",
+  "%Name":"obj_win_popup",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_card14",
-  "overriddenProperties":[
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_cardParent2","path":"objects/obj_cardParent2/obj_cardParent2.yy",},"propertyId":{"name":"is_double_block_card","path":"objects/obj_cardParent2/obj_cardParent2.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"True",},
-  ],
+  "name":"obj_win_popup",
+  "overriddenProperties":[],
   "parent":{
-    "name":"Cards",
-    "path":"folders/Objects/Cards.yy",
+    "name":"Other",
+    "path":"folders/Objects/Other.yy",
   },
-  "parentObjectId":{
-    "name":"obj_cardParent2",
-    "path":"objects/obj_cardParent2/obj_cardParent2.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -34,10 +30,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"spr_card14",
-    "path":"sprites/spr_card14/spr_card14.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

@@ -8,3 +8,4 @@ card_type = "skill";
 card_target = "self";
 block = 8;
 cards_to_draw = 1;
+card_damage = 8

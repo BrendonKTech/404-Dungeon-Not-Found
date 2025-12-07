@@ -26,6 +26,7 @@ if (tutorial != noone && tutorial.tutorial_active) {
 }
 // Normal End Turn behavior if tutorial inactive
 else {
+	global.turn_count++
     global.turn = "enemy";
     with (obj_npc) {
         if (!is_attacking) {

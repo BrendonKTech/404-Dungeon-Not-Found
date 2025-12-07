@@ -17,6 +17,7 @@ var start_text = instance_create_layer(room_width / 2, room_height / 2, "Instanc
 start_text.color = c_yellow;
 start_text.vy = -1;
 start_text.life_time = 60;
+global.turn_count++
 
 // Spawn enemies
 if (room == rm_test)

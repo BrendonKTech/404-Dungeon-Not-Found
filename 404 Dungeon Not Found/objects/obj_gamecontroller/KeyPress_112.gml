@@ -1,5 +1,5 @@
 // F1 - Give yourself every relic for testing
-if (keyboard_check_pressed(vk_f1)) {
+
 	
 scr_relic_add("Overclocked CPU");
 scr_relic_add("Corrupted RAM Stick");
@@ -14,4 +14,3 @@ scr_relic_add("Glitched BIOS Battery");
 scr_relic_add("Fiber-Optic Spool");
 scr_relic_add("Quantum Bit Drive");
 show_debug_message("All relics added for testing.");
-}

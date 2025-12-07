@@ -33,6 +33,7 @@
     {"$GMObjectProperty":"v2","%Name":"idle_sprite","filters":[],"listItems":[],"multiselect":false,"name":"idle_sprite","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"","varType":5,},
     {"$GMObjectProperty":"v2","%Name":"idle_image_speed","filters":[],"listItems":[],"multiselect":false,"name":"idle_image_speed","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0.75","varType":0,},
     {"$GMObjectProperty":"v2","%Name":"hit_image_speed","filters":[],"listItems":[],"multiselect":false,"name":"hit_image_speed","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"1","varType":0,},
+    {"$GMObjectProperty":"v2","%Name":"is_boss","filters":[],"listItems":[],"multiselect":false,"name":"is_boss","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"False","varType":3,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

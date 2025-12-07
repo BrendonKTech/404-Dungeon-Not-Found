@@ -56,8 +56,13 @@ if (hp <= 0 && is_alive)
     hp = 0;
     is_alive = false;
 
+if (is_boss)
+{
+	with (obj_battle_manager)
+        alarm[1] = 60;
+}
     with (obj_battle_manager)
-        alarm[0] = 60;
+        alarm[9] = 60;
 }
 
 if (!is_alive)
