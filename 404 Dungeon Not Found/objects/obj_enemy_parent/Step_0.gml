@@ -55,6 +55,8 @@ if (hp <= 0 && is_alive)
 {
     hp = 0;
     is_alive = false;
+	var random_gold = irandom_range(50, 65);
+	global.gold += random_gold;
 
 if (is_boss)
 {
