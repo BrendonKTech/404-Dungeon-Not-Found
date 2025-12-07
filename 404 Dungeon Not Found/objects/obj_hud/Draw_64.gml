@@ -16,9 +16,15 @@ var xx = pad;
 draw_text(xx + 55, y_mid - 10, global.player_name);
 xx += 180;
 
-// --- HEART / HP ---
+
+// ---HEART
 draw_sprite(spr_heart, 0, xx, y_mid - 20);
-draw_text(xx + 80, y_mid - 10, string(global.hp) + " / " + string(global.max_hp));
+
+if (variable_global_exists("hp") && variable_global_exists("max_hp")) {
+    draw_text(xx + 80, y_mid - 10, string(global.hp) + " / " + string(global.max_hp));
+} else {
+    draw_text(xx + 80, y_mid - 10, "??? / ???"); // or leave blank
+}
 xx += 160;
 
 // GOLD

@@ -59,7 +59,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.14.0.207",
+    "IDEVersion":"2024.14.1.210",
   },
   "name":"404 Dungeon Not Found",
   "resources":[
@@ -159,6 +159,7 @@
     {"id":{"name":"obj_settings_popup","path":"objects/obj_settings_popup/obj_settings_popup.yy",},},
     {"id":{"name":"obj_shop_controller","path":"objects/obj_shop_controller/obj_shop_controller.yy",},},
     {"id":{"name":"obj_start_button","path":"objects/obj_start_button/obj_start_button.yy",},},
+    {"id":{"name":"obj_starting_chest_popup","path":"objects/obj_starting_chest_popup/obj_starting_chest_popup.yy",},},
     {"id":{"name":"obj_starting_chest","path":"objects/obj_starting_chest/obj_starting_chest.yy",},},
     {"id":{"name":"obj_status_marker_enemy","path":"objects/obj_status_marker_enemy/obj_status_marker_enemy.yy",},},
     {"id":{"name":"obj_status_marker_player","path":"objects/obj_status_marker_player/obj_status_marker_player.yy",},},

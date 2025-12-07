@@ -1,12 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_starting_chest",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"obj_starting_chest_popup",
+  "eventList":[],
   "managed":true,
-  "name":"obj_starting_chest",
+  "name":"obj_starting_chest_popup",
   "overriddenProperties":[],
   "parent":{
     "name":"Other",
@@ -30,10 +27,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"spr_chestclosed",
-    "path":"sprites/spr_chestclosed/spr_chestclosed.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

@@ -132,6 +132,7 @@
     {"name":"obj_settings_controller","order":3,"path":"objects/obj_settings_controller/obj_settings_controller.yy",},
     {"name":"obj_settings_popup","order":24,"path":"objects/obj_settings_popup/obj_settings_popup.yy",},
     {"name":"obj_shop_controller","order":19,"path":"objects/obj_shop_controller/obj_shop_controller.yy",},
+    {"name":"obj_starting_chest_popup","order":38,"path":"objects/obj_starting_chest_popup/obj_starting_chest_popup.yy",},
     {"name":"obj_starting_chest","order":35,"path":"objects/obj_starting_chest/obj_starting_chest.yy",},
     {"name":"obj_status_marker_enemy","order":34,"path":"objects/obj_status_marker_enemy/obj_status_marker_enemy.yy",},
     {"name":"obj_status_marker_player","order":33,"path":"objects/obj_status_marker_player/obj_status_marker_player.yy",},
