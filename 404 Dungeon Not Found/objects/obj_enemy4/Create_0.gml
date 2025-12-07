@@ -7,7 +7,6 @@ is_elite = true;
 max_hp = 215;
 damage = 18;
 hp = max_hp;
-block = 0;
 
 image_xscale = 3;
 image_yscale = 3;
