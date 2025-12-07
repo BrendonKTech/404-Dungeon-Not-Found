@@ -10,6 +10,7 @@ if (global.turn == "player" && obj_player.mp >= card_cost) {
 			{
 			var total_damage = ceil((card_damage + obj_player.strength) * 1.5)
 			target.hp -= total_damage
+			audio_play_sound(snd_robot_hit, -5, false)
 			var dmg_text = instance_create_layer(target.x, target.y - 50, "Instances", obj_damage_number);
 dmg_text.depth = -1000;
         dmg_text.text = string(total_damage);
@@ -22,6 +23,7 @@ dmg_text.depth = -1000;
 			{
 				var total_damage = ceil((card_damage + obj_player.strength))
 			target.hp -= total_damage
+			audio_play_sound(snd_robot_hit, -5, false)
 			var dmg_text = instance_create_layer(target.x, target.y - 50, "Instances", obj_damage_number);
 dmg_text.depth = -1000;
         dmg_text.text = string(total_damage);
@@ -38,6 +40,7 @@ dmg_text.depth = -1000;
 				{
 				var total_damage = ceil((global.extra_current_damage + obj_player.strength) * 1.5)
 				target.hp -= total_damage;
+				audio_play_sound(snd_robot_hit, -5, false)
 				global.extra_current_damage += 3;
 				var dmg_text = instance_create_layer(target.x, target.y - 50, "Instances", obj_damage_number);
 		dmg_text.depth = -1000;
@@ -51,6 +54,7 @@ dmg_text.depth = -1000;
 				{
 				var total_damage = ceil((global.extra_current_damage + obj_player.strength))
 				target.hp -= total_damage;
+				audio_play_sound(snd_robot_hit, -5, false)
 				global.extra_current_damage += 3;
 				var dmg_text = instance_create_layer(target.x, target.y - 50, "Instances", obj_damage_number);
 		dmg_text.depth = -1000;

@@ -1,6 +1,6 @@
 {
   "$GMSound":"v2",
-  "%Name":"snd_robot_hit",
+  "%Name":"snd_OUCH",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
@@ -10,9 +10,9 @@
   "compression":0,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":1.1520182,
+  "duration":1.1040136,
   "exportDir":"",
-  "name":"snd_robot_hit",
+  "name":"snd_OUCH",
   "parent":{
     "name":"Sounds",
     "path":"folders/Sounds.yy",
@@ -21,6 +21,6 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"snd_robot_hit.mp3",
-  "volume":0.92,
+  "soundFile":"snd_OUCH.mp3",
+  "volume":1.0,
 }
