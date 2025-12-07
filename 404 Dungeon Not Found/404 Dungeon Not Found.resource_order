@@ -150,7 +150,6 @@
     {"name":"rm_map","order":10,"path":"rooms/rm_map/rm_map.yy",},
     {"name":"rm_settings","order":2,"path":"rooms/rm_settings/rm_settings.yy",},
     {"name":"rm_shop","order":4,"path":"rooms/rm_shop/rm_shop.yy",},
-    {"name":"rm_starting_room","order":17,"path":"rooms/rm_starting_room/rm_starting_room.yy",},
     {"name":"rm_test","order":3,"path":"rooms/rm_test/rm_test.yy",},
     {"name":"rm_treasure","order":11,"path":"rooms/rm_treasure/rm_treasure.yy",},
     {"name":"rm_unknown","order":12,"path":"rooms/rm_unknown/rm_unknown.yy",},
