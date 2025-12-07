@@ -2,7 +2,7 @@ draw_set_font(Font1);
 draw_set_color(c_white);
 
 // SETTINGS
-var base_scale_cards  = 1.6;
+var base_scale_cards  = 0.4;
 var base_scale_potion = 1.8;
 var base_scale_relic  = 2.0;
 

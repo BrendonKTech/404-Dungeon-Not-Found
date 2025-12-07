@@ -4,9 +4,10 @@ event_inherited();
 enemy_type = "elite"; // "normal" or "elite" or "boss"
 is_elite = true;
 
-max_hp = 128;
+max_hp = 105;
 hp = max_hp;
-block = 5;
+damage = 18;
+shield = 5;
 
 // Status effects
 weak = 0;        // Weak: take 50% more damage
