@@ -1,12 +1,12 @@
 {
   "$GMObject":"",
-  "%Name":"obj_starting_chest_popup",
+  "%Name":"obj_starting_chest_popup2",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_starting_chest_popup",
+  "name":"obj_starting_chest_popup2",
   "overriddenProperties":[],
   "parent":{
     "name":"Other",
@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_chest_prompt",
-    "path":"sprites/spr_chest_prompt/spr_chest_prompt.yy",
+    "name":"spr_chest_prompt3",
+    "path":"sprites/spr_chest_prompt3/spr_chest_prompt3.yy",
   },
   "spriteMaskId":null,
   "visible":true,

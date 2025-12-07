@@ -6,7 +6,7 @@ function get_random_card(){
 var unlocked_cards = [];
 
 // Iterate through 0-13 and check if the card is unlocked
-for (var i = 0; i <= 13; i++) {
+for (var i = 0; i <= 14; i++) {
     if (array_contains(global.inventory, i)) {
         array_push(unlocked_cards, i);
     }
@@ -75,6 +75,10 @@ if card_index == 12
 if card_index == 13
 {
 	return obj_card14
+}
+if card_index == 14
+{
+	return obj_card15
 }
 
 	
