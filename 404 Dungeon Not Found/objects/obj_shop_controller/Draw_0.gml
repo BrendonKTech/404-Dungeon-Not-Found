@@ -163,6 +163,6 @@ for (var i = 0; i < array_length(relics_for_sale); i++) {
 
 // LEAVE BUTTON
 draw_set_color(c_red);
-draw_rectangle(leave_x-100, leave_y, leave_x+leave_w, leave_y+leave_h, false);
+draw_rectangle(leave_x, leave_y, leave_x+leave_w, leave_y+leave_h, false);
 draw_set_color(c_white);
-draw_text(leave_x+30, leave_y+30, "Tab to leave");
+draw_text(leave_x+10, leave_y+10, "Leave Shop");

@@ -11,4 +11,3 @@ global.max_hp      = 200;
 global.was_hit = false;
 global.enemy_hit = false;
 global.extra_current_damage = 3
-global.gold = 0;

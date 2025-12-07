@@ -6,9 +6,7 @@
   ],
   "managed":true,
   "name":"obj_card14",
-  "overriddenProperties":[
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_cardParent2","path":"objects/obj_cardParent2/obj_cardParent2.yy",},"propertyId":{"name":"is_double_block_card","path":"objects/obj_cardParent2/obj_cardParent2.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"True",},
-  ],
+  "overriddenProperties":[],
   "parent":{
     "name":"Cards",
     "path":"folders/Objects/Cards.yy",
