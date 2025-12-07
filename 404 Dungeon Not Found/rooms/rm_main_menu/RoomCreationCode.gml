@@ -13,3 +13,6 @@ global.enemy_hit = false;
 global.extra_current_damage = 3
 global.turn_count = 0
 global.gold = 0;
+global.mp = 3
+global.max_mp = 3
+global.auto_block = 0

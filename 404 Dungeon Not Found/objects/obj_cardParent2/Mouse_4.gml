@@ -1,7 +1,8 @@
 if  room = rm_test || room = rm_elite || room = rm_boss
 {
-if (global.turn == "player" && obj_player.mp >= card_cost) {
-
+if (global.turn == "player") {
+if global.mp >= card_cost
+{
     var target = instance_nearest(mouse_x, mouse_y, obj_enemy_parent);
     if (instance_exists(target)) {
 		if (is_damage_card)
@@ -71,14 +72,14 @@ dmg_text.depth = -1000;
 			obj_player.block += block
 		}
 		
-        obj_player.mp -= card_cost;
+        global.mp -= card_cost;
 		if (is_self_hurt_card)
 		{
 			global.hp -= self_damage
 		}
 		if (is_mp_card)
 		{
-			obj_player.mp += gain_mp;
+			global.mp += gain_mp;
 		}
 		if (is_vulnerable_card)
 		{
@@ -96,13 +97,23 @@ dmg_text.depth = -1000;
 		{
 			obj_player.block += obj_player.block;
 		}
-		if (is_auto_block)
+		if (is_auto_block_card)
 		{
-			obj_player.auto_block += 1;
+			global.auto_block += auto_block
 		}
 
         instance_destroy();
     }
 }
+else
+if global.mp < card_cost
+{
+obj_battle_manager.not_enough_mp_text = "Not enough MP";
+obj_battle_manager.not_enough_mp_timer = 40; // frames to show message
+}
+}
+
+
+
 }
 

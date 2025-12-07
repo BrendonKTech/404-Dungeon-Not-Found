@@ -1,6 +1,6 @@
 function scr_get_shop_sprite(_obj){
 	switch (_obj) {
-        case obj_card1: return spr_card1;
+        case obj_card1: return spr_cardUnknown;
         case obj_card2: return spr_card2;
 		case obj_card3: return spr_card3;
 		case obj_card4: return spr_card4;

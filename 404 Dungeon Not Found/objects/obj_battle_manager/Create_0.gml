@@ -125,6 +125,8 @@ function draw_card(x, y) {
 }
 
 // Misc variables
+global.auto_block = 0
+global.extra_current_damage = 3
 not_enough_mp_text = "";
 not_enough_mp_timer = 0;
 show_victory_overlay = false;

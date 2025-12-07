@@ -30,7 +30,7 @@ if (tutorial_active) {
 				break;
 			case 3:
 				dialogue_text = "Great! Using cards will deplete your MP based on their cost.";
-               // audio_play_sound(  , 1, false);
+               audio_play_sound(snd_newTutorialVoice1, 1, false);
 				break;
 			
             // Step 3: instruction dialogue
@@ -47,7 +47,7 @@ if (tutorial_active) {
 				break;
 			case 6:
                 dialogue_text = "Enemies get a chance to attack when your turn ends.";
-               // audio_play_sound(  , 1, false);
+               audio_play_sound(snd_newTutorialVoice2, 1, false);
 				break;
             case 7:
                 dialogue_text = "Keep track of your HP! If it reaches 0, you lose.";
@@ -55,7 +55,7 @@ if (tutorial_active) {
 				break;
 			case 8:
                 dialogue_text = "There's also icons below your HP bar to indicate status effects on you.";
-               // audio_play_sound(  , 1, false);
+               audio_play_sound(snd_newTutorialVoice3, 1, false);
 				break;
 			case 9:
              dialogue_text = "You now understand the basics of attacking and taking damage.";
@@ -63,11 +63,11 @@ if (tutorial_active) {
 				break;
 			case 10:
             dialogue_text = "When you start the real game, you'll be given a random set of cards.";
-           // audio_play_sound(  , 1, false);
+           audio_play_sound(snd_newTutorialVoice4, 1, false);
 				break;
 			case 11:
             dialogue_text = "You can obtain more cards throughout the game from loot and shops.";
-            //audio_play_sound(  , 1, false);
+            audio_play_sound(snd_newTutorialVoice5, 1, false);
 				break;
             
             case 12:

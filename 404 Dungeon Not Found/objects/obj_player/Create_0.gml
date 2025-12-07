@@ -1,8 +1,9 @@
 hp = 100;
 max_hp = 100;
-
-mp       = 3;
-max_mp   = 3;
+if global.mp < 3
+{
+global.mp       = 3
+}
 mp_next_turn = 0;
 
 block        = 0;

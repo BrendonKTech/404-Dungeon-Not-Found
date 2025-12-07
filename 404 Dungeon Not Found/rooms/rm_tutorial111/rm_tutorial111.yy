@@ -18,10 +18,13 @@
     {"name":"inst_646E620F","path":"rooms/rm_tutorial111/rm_tutorial111.yy",},
     {"name":"inst_32E58F26","path":"rooms/rm_tutorial111/rm_tutorial111.yy",},
     {"name":"inst_13D6798C","path":"rooms/rm_tutorial111/rm_tutorial111.yy",},
+    {"name":"inst_6786768E","path":"rooms/rm_tutorial111/rm_tutorial111.yy",},
   ],
   "isDnd":false,
   "layers":[
-    {"$GMRInstanceLayer":"","%Name":"GUI","depth":0,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[],"layers":[],"name":"GUI","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
+    {"$GMRInstanceLayer":"","%Name":"GUI","depth":0,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
+        {"$GMRInstance":"v4","%Name":"inst_6786768E","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_6786768E","objectId":{"name":"obj_tutorial_arrow","path":"objects/obj_tutorial_arrow/obj_tutorial_arrow.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":129.71643,"scaleX":2.25,"scaleY":2.25,"x":480.0,"y":672.0,},
+      ],"layers":[],"name":"GUI","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"Popup","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v4","%Name":"inst_6F71E6DC","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_6F71E6DC","objectId":{"name":"obj_battle_manager_tutorial","path":"objects/obj_battle_manager_tutorial/obj_battle_manager_tutorial.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":96.0,"y":64.0,},
         {"$GMRInstance":"v4","%Name":"inst_6F6A4B51","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_6F6A4B51","objectId":{"name":"obj_endTurn_tutorial","path":"objects/obj_endTurn_tutorial/obj_endTurn_tutorial.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":2.0,"scaleY":2.0,"x":1344.0,"y":864.0,},

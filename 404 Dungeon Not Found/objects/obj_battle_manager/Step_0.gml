@@ -7,7 +7,8 @@ if (global.turn == "enemy") {
 			e.vulnerable = false;
 			if (obj_player.vulnerable)
 			{
-				var damage_final = max(ceil(e.damage * 1.5) - obj_player.block - obj_player.auto_block, 0);
+				var damage_final = max(ceil((e.damage * 1.5) - obj_player.block), 0);
+					damage_final -= global.auto_block
 				global.hp -= damage_final;
 				audio_play_sound(snd_OUCH, -5, false)
 			obj_player.block = 0;
@@ -22,7 +23,8 @@ var dmg_text = instance_create_layer(p.x, p.y - 180, "Popup", obj_damage_number)
 			}
 			else
 			{
-			var damage_final = max(e.damage - obj_player.block - obj_player.auto_block, 0);
+			var damage_final = max((e.damage - obj_player.block), 0);
+				damage_final -= global.auto_block
 				global.hp -= damage_final;
 				audio_play_sound(snd_OUCH, -5, false)
 			obj_player.block = 0;
@@ -40,13 +42,13 @@ var dmg_text = instance_create_layer(p.x, p.y - 180, "Popup", obj_damage_number)
     }
 
     // Increment player MP
-	if obj_player.mp > 3
+	if global.mp > 3
 	{
 
 	}
 	else
 	{
-		obj_player.mp = 3;
+		global.mp = 3;
 	}
 
     refresh_cards = true;
@@ -84,4 +86,9 @@ var inst6 = instance_create_layer(1200, 960, "Instances", draw4);
 inst6.image_xscale = 0.5;
 inst6.image_yscale = 0.5;
 refresh_cards = false
+}
+
+// --- Countdown (put in Step Event) ---
+if (not_enough_mp_timer > 0) {
+    not_enough_mp_timer -= 1;
 }

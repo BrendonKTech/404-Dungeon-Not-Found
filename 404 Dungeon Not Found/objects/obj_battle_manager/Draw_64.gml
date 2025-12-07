@@ -1,15 +1,22 @@
+
+
+// --- Draw GUI Event ---
 if (not_enough_mp_timer > 0) {
+    // Set alignment and color
     draw_set_halign(fa_center);
     draw_set_valign(fa_middle);
     draw_set_color(c_red);
 
-    var alpha = not_enough_mp_timer / 40; // fades out
+    // Fade out based on timer
+    var alpha = not_enough_mp_timer / 40; // adjust 40 for duration
     draw_set_alpha(alpha);
 
-	draw_set_font(Font1);
+    // Draw text
+    draw_set_font(Font1);
     draw_text(room_width / 2, room_height - 500, not_enough_mp_text);
 
-    draw_set_alpha(1); // reset
+    // Reset alpha and color
+    draw_set_alpha(1);
     draw_set_color(c_white);
 }
 
@@ -25,11 +32,11 @@ draw_set_color(c_black);
 draw_rectangle(bar_x, bar_y, bar_x + bar_width, bar_y + bar_height, false);
 
 // --- Clamp MP ratio so filled width never exceeds the bar ---
-var mp_ratio_raw = obj_player.mp / obj_player.max_mp;
+var mp_ratio_raw = global.mp / global.max_mp;
 var mp_ratio_clamped = clamp(mp_ratio_raw, 0, 1);
 
 // --- Choose bar color ---
-if (obj_player.mp > obj_player.max_mp) {
+if (global.mp > global.max_mp) {
     draw_set_color(make_color_rgb(180, 0, 255)); // purple
 } else {
     draw_set_color(c_blue);
@@ -48,7 +55,7 @@ draw_rectangle(
 draw_set_color(c_white);
 draw_set_halign(fa_center);
 draw_set_valign(fa_middle);
-draw_text(bar_x + bar_width/2, bar_y + bar_height/2, string(obj_player.mp) + " / " + string(obj_player.max_mp));
+draw_text(bar_x + bar_width/2, bar_y + bar_height/2, string(global.mp) + " / " + string(global.max_mp));
 
 
 if (show_victory_overlay) {

@@ -1,1 +1,1 @@
-global.gold += 50
+global.hp = 1
