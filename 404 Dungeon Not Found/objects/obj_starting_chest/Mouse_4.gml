@@ -1,3 +1,5 @@
+sprite_index = spr_chestopen
+
 var start_card1 = treasure_get_card()
 var start_card2 = treasure_get_card()
 var start_card3 = treasure_get_card()

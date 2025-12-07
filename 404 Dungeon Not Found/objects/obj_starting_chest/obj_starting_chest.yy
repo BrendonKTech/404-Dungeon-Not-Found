@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_temp_strength",
-    "path":"sprites/spr_temp_strength/spr_temp_strength.yy",
+    "name":"spr_chestclosed",
+    "path":"sprites/spr_chestclosed/spr_chestclosed.yy",
   },
   "spriteMaskId":null,
   "visible":true,
