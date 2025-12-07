@@ -11,7 +11,7 @@ block = 5;
 // Status effects
 weak = 0;        // Weak: take 50% more damage
 vulnerable = 0;  // Vulnerable: take more damage
-shield = 0;      // Blocks damage for this turn
+//block = 0;      // Blocks damage for this turn
 
 // Animations
 spr_idle   = spr_enemy10_idle;
