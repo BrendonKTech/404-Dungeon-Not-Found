@@ -1,1 +1,0 @@
-/*draw_self(); // Draw the player sprite at x,y

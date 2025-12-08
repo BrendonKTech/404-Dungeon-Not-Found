@@ -1,1 +1,0 @@
-show_defeat_overlay = true
