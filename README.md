@@ -52,17 +52,19 @@ Players build and customize a deck of cards and use them strategically to defeat
 
 ## Cheats
 
-- **F1**: Gives player all of the relics.
+- **F1**: Kills the enemy in the current room.
 - **F2**: Sets player back to max health.
-- **F3**: Add 50 HP to the player.
+- **F3**: Add 3 MP to the player.
 - **F4**: Double Current HP
 - **F5**: Set player HP to 1 (hard mode).
+- **F6**: Grants 50 gold.
 
 ## Credits
 
 - Developed in **GameMaker Studio II**  
 - Inspired by *Slay the Spire*  
 - Main Menu theme, Main theme, Map theme, and sound effects by Manoah Allen
+- Character assets, enemy assets, and main background by James Bingham
 
 ## Used art
 - https://creativekind.itch.io/nightborne-warrior
