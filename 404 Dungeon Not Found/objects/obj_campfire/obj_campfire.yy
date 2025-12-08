@@ -3,6 +3,8 @@
   "%Name":"obj_campfire",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
   "name":"obj_campfire",
@@ -30,8 +32,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_campfire_for_room",
-    "path":"sprites/spr_campfire_for_room/spr_campfire_for_room.yy",
+    "name":"spr_newcampfire",
+    "path":"sprites/spr_newcampfire/spr_newcampfire.yy",
   },
   "spriteMaskId":null,
   "visible":true,

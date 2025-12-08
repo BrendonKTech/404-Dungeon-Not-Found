@@ -85,3 +85,21 @@ if (global.enemy_hit == true)
     image_index = 0;
     image_speed = 0.85;
 }
+
+if (global.was_hit = true)
+{
+	global.was_hit = false
+	if (attack_sprite == "noone")
+	{
+	}
+	else
+	{
+	sprite_index = attack_sprite
+	image_index = 0
+	image_speed = 1
+	if (is_boss)
+	{
+		image_speed = 2
+	}
+	}
+}

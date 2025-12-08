@@ -1,6 +1,7 @@
 if (not_yet_clicked == true)
 {
 not_yet_clicked = false;
+audio_play_sound(snd_chest_open, -5, false)
 sprite_index = spr_chestopen
 obj_starting_chest_popup.progress = true
 obj_starting_chest_popup2.progress = true

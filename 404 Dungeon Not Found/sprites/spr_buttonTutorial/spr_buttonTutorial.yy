@@ -19,6 +19,7 @@
   "height":693,
   "HTile":false,
   "layers":[
+    {"$GMImageLayer":"","%Name":"baebf94f-8876-42ff-b146-501212b96e4a","blendMode":0,"displayName":"Layer 1","isLocked":false,"name":"baebf94f-8876-42ff-b146-501212b96e4a","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
     {"$GMImageLayer":"","%Name":"17afc496-9ce8-46b5-942f-d119cf8dddcf","blendMode":0,"displayName":"default","isLocked":false,"name":"17afc496-9ce8-46b5-942f-d119cf8dddcf","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"spr_buttonTutorial",

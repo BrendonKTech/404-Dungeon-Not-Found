@@ -2,12 +2,17 @@ draw_self();
 
 var bar_w = 80;
 var bar_h = 8;
+var boss_offset = 0
+if (is_boss)
+{
+	boss_offset = 160
+}
 
 // Calculate HP percentage
 var hp_percent = hp / max_hp;
 
 // Move bar 300px lower than sprite
-var bar_y_top = y - sprite_height + 265;
+var bar_y_top = y - sprite_height + 265 - boss_offset;
 var bar_y_bottom = bar_y_top + bar_h;
 var text_y = bar_y_top - 12;  // text slightly above the bar
 

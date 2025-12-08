@@ -23,6 +23,6 @@ if type == "random"
 	}
 	if (type = "merchant")
 	{
-		room_to_go = rm_shop
+		room_to_go = rm_shop2
 	}
 }

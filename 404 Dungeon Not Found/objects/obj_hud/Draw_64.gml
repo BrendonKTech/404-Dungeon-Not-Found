@@ -26,12 +26,14 @@ xx += 180;
 // =====================================
 // HEART (HP)
 // =====================================
+var hp_display = max(global.hp, 0);
+
 draw_sprite(spr_heart, 0, xx - 30, icon_y);
 
 draw_text(
-    xx + 70, 
-    icon_y + text_offset_y, 
-    string(global.hp) + " / " + string(global.max_hp)
+    xx + 70,
+    icon_y + text_offset_y,
+    string(hp_display) + " / " + string(global.max_hp)
 );
 
 xx += 160;
@@ -45,14 +47,6 @@ draw_text(xx + 50, icon_y + text_offset_y, string(global.gold));
 xx += 140;
 
 
-// =====================================
-// POTIONS (3 slots)
-// =====================================
-for (var i = 0; i < 3; i++)
-{
-    draw_sprite(spr_empty_potion, 0, xx, icon_y);
-    xx += 70;
-}
 
 
 
@@ -67,9 +61,7 @@ var rx = room_width - 70;
 draw_sprite(spr_gear, 0, rx, icon_y);
 rx -= 90;
 
-// CARDS
-draw_sprite(spr_cards, 0, rx, icon_y);
-rx -= 90;
+
 
 // MAP (if used)
 // draw_sprite(spr_map_icon, 0, rx, icon_y);

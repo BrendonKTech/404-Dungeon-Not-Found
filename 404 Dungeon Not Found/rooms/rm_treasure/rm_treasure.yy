@@ -9,6 +9,7 @@
     {"name":"inst_7C9591B2","path":"rooms/rm_treasure/rm_treasure.yy",},
     {"name":"inst_5A38481E","path":"rooms/rm_treasure/rm_treasure.yy",},
     {"name":"inst_421A109F","path":"rooms/rm_treasure/rm_treasure.yy",},
+    {"name":"inst_2042FDC4","path":"rooms/rm_treasure/rm_treasure.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -16,6 +17,7 @@
         {"$GMRInstance":"v4","%Name":"inst_7C9591B2","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_7C9591B2","objectId":{"name":"obj_treasure","path":"objects/obj_treasure/obj_treasure.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":896.0,"y":576.0,},
         {"$GMRInstance":"v4","%Name":"inst_5A38481E","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_5A38481E","objectId":{"name":"obj_other_room_audio","path":"objects/obj_other_room_audio/obj_other_room_audio.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":832.0,"y":128.0,},
         {"$GMRInstance":"v4","%Name":"inst_421A109F","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_421A109F","objectId":{"name":"obj_chest_popup","path":"objects/obj_chest_popup/obj_chest_popup.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":3.6291723,"scaleY":3.6291723,"x":544.0,"y":128.0,},
+        {"$GMRInstance":"v4","%Name":"inst_2042FDC4","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_2042FDC4","objectId":{"name":"obj_loot_chest_popup2","path":"objects/obj_loot_chest_popup2/obj_loot_chest_popup2.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":4.203918,"scaleY":4.2039185,"x":480.0,"y":768.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRAssetLayer":"","%Name":"Assets_1","assets":[
         {"$GMRSpriteGraphic":"v1","%Name":"graphic_35A415D2","animationSpeed":1.0,"colour":4294967295,"frozen":false,"headPosition":0.0,"ignore":true,"inheritedItemId":null,"inheritItemSettings":false,"name":"graphic_35A415D2","resourceType":"GMRSpriteGraphic","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"spriteId":{"name":"spr_background2","path":"sprites/spr_background2/spr_background2.yy",},"x":0.0,"y":0.0,},

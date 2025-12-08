@@ -1,4 +1,4 @@
 global.unlock_index = 0
-global.inventory = [0, 1, 2, 3]
+global.inventory = [0]
 
 game_restart()

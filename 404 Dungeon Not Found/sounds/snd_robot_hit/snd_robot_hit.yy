@@ -22,5 +22,5 @@
   "resourceVersion":"2.0",
   "sampleRate":44100,
   "soundFile":"snd_robot_hit.mp3",
-  "volume":0.92,
+  "volume":1.0,
 }
